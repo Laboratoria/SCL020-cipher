@@ -1,0 +1,32 @@
+div {
+  width: 700px;
+  height: 350px;
+  background: #40404d;
+  margin: 100px 100px;
+  border: 10px solid #000;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2015/10/11/818159/d7c22dbf2d8baecc603d04df580e8c7a.jpg);
+}
+
+label {
+  font-size: 40px;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 250px;
+}
+
+input {
+  margin: 100px 250px;
+}
+
+button {
+  margin: 1px 300px;
+  background-color: #787d80;
+  border-radius: 6px;
+  border: 2px solid #232533;
+}
