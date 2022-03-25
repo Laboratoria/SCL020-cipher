@@ -1,0 +1,141 @@
+* {
+  margin: 10;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #000;
+  background-image: url(https://images.vexels.com/media/users/3/146958/raw/2333cf261c71020f55937420ff29c8aa-diseno-de-fondo-futurista-abstracto.jpg);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 24px;
+}
+
+p {
+  font-weight: 700;
+  text-align: center;
+  font-size: 20px;
+  font-family: Hack, sans-serif;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 5s linear infinite;
+  position: relative;
+}
+
+@keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}
+
+#box2 {
+  width: 700px;
+  height: 350px;
+  background: #1a1e1fda;
+  margin: 190px 150px;
+}
+
+#logo {
+  width: 230px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#button2 {
+  font-size: 16px;
+  position: absolute;
+  bottom: 100px;
+  background-color: #e7e7e7;
+  color: black;
+  border-radius: 12px;
+  padding: 10px 24px;
+  transition-duration: 0.4s;
+}
+#button2:hover {
+  background-color: #1a1a1a; /* Green */
+  color: rgb(94, 91, 91);
+}
+
+#code {
+  font-size: 16px;
+  position: relative;
+  bottom: -180px;
+  left: 95px;
+  background-color: #e7e7e7;
+  color: black;
+  border-radius: 12px;
+  padding: 10px 24px;
+  transition-duration: 0.4s;
+}
+#code:hover {
+  background-color: #1a1a1a; /* Green */
+  color: rgb(94, 91, 91);
+}
+
+#decode {
+  font-size: 16px;
+  position: relative;
+  bottom: -180px;
+  left: 250px;
+  background-color: #e7e7e7;
+  color: black;
+  border-radius: 12px;
+  padding: 10px 24px;
+  transition-duration: 0.4s;
+}
+#decode:hover {
+  background-color: #1a1a1a; /* Green */
+  color: rgb(94, 91, 91);
+}
+
+#content1 {
+  height: 20px;
+  overflow: hidden;
+  background-color: #b3b3b3;
+  position: absolute;
+  top: 0;
+}
+
+#content2 {
+  color: #000;
+  -webkit-animation-name: informativewords;
+  -webkit-animation-duration: 40s;
+  -moz-animation-name: informativewords;
+  -moz-animation-duration: 40s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes informativewords {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: -100%;
+  }
+}
+
+@-moz-keyframes informativewords {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: -100%;
+  }
+}
