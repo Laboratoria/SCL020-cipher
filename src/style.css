@@ -1,8 +1,8 @@
-div {
+#box {
   width: 700px;
   height: 350px;
-  background: #40404d;
-  margin: 100px 100px;
+  background: #461a1a;
+  margin: 190px 150px;
   border: 10px solid #000;
 }
 
@@ -10,23 +10,42 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2015/10/11/818159/d7c22dbf2d8baecc603d04df580e8c7a.jpg);
+  background-image: url(https://wallpaperaccess.com/full/378368.jpg);
 }
 
-label {
+#login {
+  font-size: 40px;
+  width: 250px;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 100px 280px;
+  position: relative;
+  right: 30px;
+}
+
+#logo {
+  width: 230px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*
+#label1 {
   font-size: 40px;
   color: white;
   font-family: Georgia, "Times New Roman", Times, serif;
-  margin: 250px;
+  margin: 260px 200px;
 }
 
-input {
-  margin: 100px 250px;
-}
-
-button {
-  margin: 1px 300px;
+#enter {
+  margin: 100px 310px;
   background-color: #787d80;
   border-radius: 6px;
   border: 2px solid #232533;
 }
+
+#pass {
+  margin: 20px 260px;
+}
+*/
