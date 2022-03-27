@@ -1,10 +1,10 @@
-- Quiénes son los principales usuarios de producto.
+- **Quiénes son los principales usuarios de producto.**
   Los principales usuarios son Adultos en una red de espias internacionales.
 
-- Cuáles son los objetivos de estos usuarios en relación con tu producto.
+- **Cuáles son los objetivos de estos usuarios en relación con tu producto.**
   Los objetivos principales son comunicarse en codigo, asi que la pagina facilita crear el codigo y a la vez decodificar uno que ya tenga en mano.
 
-- Cómo crees que el producto que estás creando está resolviendo sus problemas.
+- **Cómo crees que el producto que estás creando está resolviendo sus problemas.**
   Creo que resolvera los problemas, ya que la idea es la comunicacion secreta entre estas partes.
 
   El primer prototipo de mi pagina esta a mano, una forma muy sencilla de identificar que quiero usar unas 4 vistas.
@@ -16,3 +16,5 @@
   _Aqui va imagen Prototipo Cipher_
 
 Seguido a esto, decidi hacer la maqueta en Figma para tener una idea de lo que queria, igual que ver la paleta de colores a utilizar, al ser una tematica de espias, los colores oscuros seran predominantes.
+
+Busque fondos de pantalla uno para la principal y otro para las otras vistas.
