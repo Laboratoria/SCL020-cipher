@@ -132,6 +132,8 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### JavaScript
 
+np
+
 - [ ] **Tipos de datos primitivos**
 
     <details><summary>Links</summary><p>

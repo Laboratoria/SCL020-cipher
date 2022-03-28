@@ -26,14 +26,14 @@ p {
 
 #box2 {
   width: 700px;
-  height: 350px;
+  height: 450px;
   background: #1a1e1fda;
-  margin: 190px 150px;
+  margin: 100px 150px;
   position: absolute;
 }
 
 #shift {
-  width: 100px;
+  width: 50px;
   height: 30px;
 }
 
