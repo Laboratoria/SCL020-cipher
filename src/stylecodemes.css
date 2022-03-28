@@ -32,6 +32,11 @@ p {
   position: absolute;
 }
 
+#shift {
+  width: 100px;
+  height: 30px;
+}
+
 #logo {
   width: 230px;
   position: absolute;
