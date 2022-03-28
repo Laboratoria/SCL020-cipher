@@ -1,0 +1,28 @@
+    body { /*imagen y tamaño */
+        background-image: url(fotop.jpeg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size:cover;
+    }
+    h1{ 
+        /*cambio color letra */
+        color: rgb(255, 252, 249);
+        background-color: rgba(223, 176, 114, 0.534);
+    }
+    
+    .container{
+        display: flex;
+    }    
+    .container div {        
+       background-color: rgba(223, 176, 114, 0.534);
+        width: 250px;
+        /*tamaño de separacion de cuadrado*/
+        margin: 100px;
+        /*posicion del cuadrado*/
+        text-align: center;
+        /*ver las letras mas grande */
+        line-height: 100px;
+        /*tamaño de fuente de letra*/
+        font-size: 50px;
+    }
+       
