@@ -18,7 +18,9 @@ para definir el producto final a nivel de experiencia y de interfaz.
     enviar una tarjeta para otro destino y poder ocuparla sin que sea interferida por 3 personas.
 * Cómo crees que el producto que estás creando está resolviendo sus problemas.
 
-Al cifrar la tarjeta solo el cliente que este sea enviada podrá descifrarla, está seguro los datos de esta, la cual no podrá ser vulnerada.
+Al cifrar la tarjeta solo el cliente que este sea enviada podrá descifrarla, está seguro los datos de esta, la cual no podrá ser vulnerada.enviar una tarjeta para otro destino y poder ocuparla sin que sea interferida por 3 personas.
 
 
-*** se creo prototypo de la pagina y la necesidad del usuario ***
+ *** se creo prototypo de la pagina y la necesidad del usuario ***
+
+ 

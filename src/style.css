@@ -1,28 +1,28 @@
     body { /*imagen y tamaño */
-        background-image: url(fotop.jpeg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;  
-        background-size:cover;
+        background-image: url(candado.png);
+        background-repeat: no-repeat;/* para que la imagen no se repita */
+        background-attachment: fixed; /*comportamiento de imagen al desplazar */
+        background-size:cover;/*proporcion de la imagen*/
     }
     h1{ 
         /*cambio color letra */
-        color: rgb(255, 252, 249);
-        background-color: rgba(223, 176, 114, 0.534);
+        color: rgb(255, 254, 254);
+        background-color: rgba(219, 191, 29, 0.349);
+        text-align: center;/*posicione las letras al centro*/
+        margin: 150px;/*posicione el cuadro mas abajo*/
+        width: 900px;/*tamaño de la caja*/
+        font-size: 90px;/*tamaño de la letra */
     }
     
     .container{
         display: flex;
+        justify-content: space-evenly;/* centro lo dos recuadros*/
     }    
     .container div {        
-       background-color: rgba(223, 176, 114, 0.534);
-        width: 250px;
-        /*tamaño de separacion de cuadrado*/
-        margin: 100px;
-        /*posicion del cuadrado*/
-        text-align: center;
-        /*ver las letras mas grande */
-        line-height: 100px;
-        /*tamaño de fuente de letra*/
-        font-size: 50px;
+        background-color: rgba(219, 191, 29, 0.349);
+        width: 300px;/*tamaño de separacion de cuadrado*/
+        text-align: center; /*la posicion de la letras ,ponerlas al centro*/
+        line-height: 50px;/*tamaño de fuente de letra(separacion de ellas)*/
+        font-size: 50px;/*tamaño de la letra */
     }
        
