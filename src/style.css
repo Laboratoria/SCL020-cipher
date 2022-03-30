@@ -18,11 +18,12 @@
         display: flex;
         justify-content: space-evenly;/* centro lo dos recuadros*/
     }    
-    .container div {        
+    .container div button {        
         background-color: rgba(219, 191, 29, 0.349);
         width: 300px;/*tamaño de separacion de cuadrado*/
         text-align: center; /*la posicion de la letras ,ponerlas al centro*/
         line-height: 50px;/*tamaño de fuente de letra(separacion de ellas)*/
         font-size: 50px;/*tamaño de la letra */
     }
-       
+   
+
