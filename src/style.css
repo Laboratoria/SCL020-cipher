@@ -7,11 +7,16 @@
     h1{ 
         /*cambio color letra */
         color: rgb(255, 254, 254);
+        
         background-color: rgba(219, 191, 29, 0.349);
         text-align: center;/*posicione las letras al centro*/
         margin: 150px;/*posicione el cuadro mas abajo*/
-        width: 900px;/*tamaño de la caja*/
+        width: 900px;/*tamaño de la caja ancho*/
+        
+
         font-size: 90px;/*tamaño de la letra */
+        border-radius: 35px;
+        ;
     }
     
     .container{
@@ -19,11 +24,42 @@
         justify-content: space-evenly;/* centro lo dos recuadros*/
     }    
     .container div button {        
-        background-color: rgba(219, 191, 29, 0.349);
+        background-color: rgba(219, 191, 29, 0.5);
         width: 300px;/*tamaño de separacion de cuadrado*/
         text-align: center; /*la posicion de la letras ,ponerlas al centro*/
         line-height: 50px;/*tamaño de fuente de letra(separacion de ellas)*/
         font-size: 50px;/*tamaño de la letra */
+        border-radius: 35px ;
     }
    
+    /*------segundo pie de pagina --------*/    
+         /* Cipher Card */
 
+    .Cifrador{ 
+
+    background: rgba(204, 178, 28, 0.637);
+    border: 10px solid #742b2b;
+    height: 400px;
+    margin: 100px;
+    width: 700px;
+    left: 25px;
+    top: 350px;
+    border-radius: 30px;
+}
+/*  ------- letra de tarjeta--------  */
+
+.Cifrador div {
+    display:flex;
+font-family: 'Jomolhari';/*Diseño de la letra*/
+text-indent: 40px;/*tabula hacia la izquierda la letra*/
+font-size: 50px;/*tamaño de letra*/
+line-height: 68px;/*altura de letra*/
+align-items: center;
+
+}
+div label {
+    display: flex;
+   display: block;
+   margin: 10px;
+  
+  }
