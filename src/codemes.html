@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="stylecodemes.css" />
+    <script type="module" src="index.js"></script>
   </head>
   <body>
 
@@ -11,13 +12,12 @@
     <div id="content1">
 
       <div id="content2">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-        Nunc at luctus enim. Aliquam et nisl faucibus, condimentum nulla non, 
-        tincidunt velit. In hac habitasse platea dictumst. Pellentesque eleifend 
-        felis augue, a eleifend nibh ultrices quis. Duis cursus urna et viverra 
-        vehicula. Morbi tempus sollicitudin erat, sit amet laoreet libero ultricies
-         maximus. Fusce in posuere nunc. In pellentesque, ex non facilisis semper,
-          risus tellus suscipit quam, et posuere metus nulla et lacus.
+        Santé mentale : pourquoi trop d'empathie peut être néfaste pour vous -
+         Ukraine refugee exodus reaches four million - Rusija i Ukrajina: Četvrtina 
+         stanovništva Ukrajine morala da napusti domove - nastavljaju se napadi širom zemlje - 
+         Afasia: entenda os sintomas da doença que forçou Bruce Willis a dar uma pausa na carreira -
+         Rusia y Ucrania: Moscú descarta avances en las conversaciones de paz, mientras los ucranianos 
+         denuncian nuevos ataques - Sniper Wali“ über seinen Fronteinsatz in der Ukraine.
       </div>
 
     
@@ -32,22 +32,19 @@
     <div id="box2"> 
       <p>Original Message:
           <br>
-        <textarea id="codemessage" rows="4" cols="70" required></textarea>
+        <textarea id="original" rows="4" cols="70" value="" required></textarea>
         <br><br>
-        <input id="shift" type="number" placeholder="Shift" required> </input> 
+        <input id="shift" type="number" placeholder="Shift" value="" required> </input> 
         <br><br>
         Encrypted Message:
-        <textarea id="encrypted" rows="4" cols="70" required></textarea>
+        <textarea id="encrypted" rows="4" cols="70" value="" ></textarea>
 
       </p>
 
       
-      <button id="code" input type="submit" value="code" onclick="location.href='index.html'">CODE</button>
+      <button type="button" id="code" onclick="eventCode()">CODE</button>
         </div>
-        
-        
-      
 
-    <script src="index.js" type="module"></script>
+
   </body>
 </html>
