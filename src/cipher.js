@@ -9,19 +9,32 @@ const cipher = {
 export default cipher;
 
 
-// Aqui tienes 2 opciones o exportas la funcion de una colocando export funtion encode(){} o 
-// metes dentro del objeto cipher arriba el nombre de la funcion para cuando la tengas que llamar
-// seria ciper.encode()
 function encode(originalMessage,shift){
 
-  let abc= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  
+  let result="";
+  let alphabet= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  shift = ((shift % 26)+ 26) % 26;
+  // 26 * 1 = 26  
+  // 26 * 2 = 52
+  // 26 * 3 = 78
+  console.log("Este es el shift %26", shift % 26);
 
+
+  for (let i = 0; i < originalMessage.length; i++){
+    if (alphabet.indexOf(originalMessage[i]) != -1)
+    {
+
+      console.log(originalMessage[i]);
+      let position = (alphabet.indexOf(originalMessage[i]) + shift ) % 26;
+      result += alphabet[position];
+
+    } else {
+      result += originalMessage[i];
+    }
+  }
+ return result;
 }
 
-/*export function encode(){
-  console.log('entre a la wea desde cipher');
-}*/
 
 function decode(){
 
