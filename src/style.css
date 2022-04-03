@@ -6,17 +6,11 @@
     }
     h1{ 
         /*cambio color letra */
-        color: rgb(255, 254, 254);
-        
-        background-color: rgba(219, 191, 29, 0.349);
+        color: rgb(219, 191, 29);
         text-align: center;/*posicione las letras al centro*/
-        margin: 150px;/*posicione el cuadro mas abajo*/
-        width: 900px;/*tamaño de la caja ancho*/
-        
-
-        font-size: 90px;/*tamaño de la letra */
-        border-radius: 35px;
-        ;
+        margin: 200px;/*posicione el cuadro mas abajo*/
+        font-size: 80px;/*tamaño de la letra */
+        text-shadow: 6px 5px  #252020; /*sombra letra */
     }
     
     .container{
@@ -26,10 +20,12 @@
     .container div button {        
         background-color: rgba(219, 191, 29, 0.5);
         width: 300px;/*tamaño de separacion de cuadrado*/
+        padding: 15px;     
         text-align: center; /*la posicion de la letras ,ponerlas al centro*/
         line-height: 50px;/*tamaño de fuente de letra(separacion de ellas)*/
         font-size: 50px;/*tamaño de la letra */
         border-radius: 35px ;
+        text-shadow: 2px 1px  #252020; /*sombra letra */
     }
    
     /*------segundo pie de pagina --------*/    

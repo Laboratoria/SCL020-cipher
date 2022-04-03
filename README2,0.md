@@ -16,19 +16,6 @@ para definir el producto final a nivel de experiencia y de interfaz.
 
 * segunda pagina: el cliente debe ingresar los datos de la tarjeta a cifrar 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 - [ ] ¿Quiénes son los principales usuarios de producto?
    
 * Un undividuo con la necesidad de cifrar o decifrar su tarjeta de credito,debito o bancaria.
@@ -43,4 +30,6 @@ para definir el producto final a nivel de experiencia y de interfaz.
 
  *** se creo prototypo de la pagina y la necesidad del usuario ***
 
-* Se creo diseño de la pagina 
+* Se creo el diseño de la pagina principal, con dos opciones,(dos botones) la cual el cliente tendra que escoger cual necesita.
+* Si es cifrar la parjeta o decifrarla.
+* ya escogida la opcion,al precionar el boton  los direccionara a segunda pagina, la cual se vera un targeta y un canpo a llenar , donde el cliente pondra los dastos de la pagina 
