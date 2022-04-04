@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Primer Juego</title>
+</head>
+  <body>
+    <header id="img-avatar">
+      <h1>Misiones Espaciales</h1>
+    </header>
+  <main>
+    <div class="cipherContainer">
+      <h2>Cifrado Cesar</h2>
+      <label><input id="original" autocomplete="off" spellcheck="false" type="text">Ingresa tu texto</label>
+      <input id="displace" type="range" value="10" min="0" max="40" oninput="this.nextElementSibling.value = this.value">
+      <output>40</output>  
+      <br>
+      <textarea id="encrypted">CODIGO</textarea>
+      <br>
+      <button id="btn">COPIAR</button>
+      <button onclick="encodeCesar()">Cifrar</button>
+    </div>
+    <div>
+      <h2>Instrucciones</h2>
+      <p>lorem ipsum</p>
+    </div>
+    <div>
+      <h2>Introduccion</h2>
+    </div>
+    <div>
+      <p> Mapa</p>
+      <img src=img\mapafinal.png alt="">
+    </div>
+    <div class="btn-avatar">
+    <button class= 'button' id="firstGamebtn"> <img id="nave" src="img/spaceship.jpeg"></button>
+    </div>
+  </main>
+</body>
+      <script src="cipher.js"></script>
+      <script src="script.js"></script>
+</html>
