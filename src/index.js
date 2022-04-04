@@ -1,6 +1,3 @@
-import cipher from './cipher.js';
-
-console.log(cipher);
 /*REDIRECCION A PAGINAS con window.location*/
 
 function btnFirstPage() {
