@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Segundo Juego</title>
+</head>
+<body>
+    <header id="title">
+        <h1>Misiones Espaciales</h1>
+    </header>
+    <main class="main-secondGame">
+        <div class="cipher-inst">
+            <div class="cipherContainer">
+                <h2>Cifrado Cesar</h2>
+                <input id="original" class="input-in" autocomplete="off" spellcheck="false" type="text">
+                <p id="encrypted"></p> 
+                <div class="input-range">
+                    <input id="displace" type="range" value="10" min="0" max="10" oninput="this.nextElementSibling.value = this.value">
+                    <output>10</output>
+                </div>
+                <!-- <button id="btn">COPIAR</button> -->
+                <button onclick="decodeCesar()">Decifrar</button>
+            </div>
+            <div class="instructions">
+                <h2>Instrucciones</h2>
+            </div>
+        </div>
+        <div class="quest-btn">
+            <div class="firstQuest">
+                <h1>Primera Mision</h1>
+                <h2>¿Cual es el 3er planeta mas cerca del sol?</h2>
+                <p class="alt">a.- PHUFXULR</p>
+                <p class="alt">b.- YHQXV</p>
+                <p class="alt">c.- WLHUUD</p>
+            </div>
+            <div class="button">
+                <button id="btn-avatar" onclick="btnEndingPage()"><img id="nave" src="img/spaceship.svg"></button>
+            </div>
+        </div>
+    </main>
+</body>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+</html>

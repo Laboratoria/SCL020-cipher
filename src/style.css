@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+
+/* General */
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+    background-image: url(img/moon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* welcome.html */
+
+/* Header  */
+
+.welcome {
+    color: white;
+
+    text-align: center;
+    margin: 15px auto;
+
+    font-size: 36px;
+    font-weight: 700 bold;
+}
+
+/* Section  */
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+iframe {
+    border-radius: 8px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+.user-section {
+    background: rgba(140, 116, 188, 1);
+    color: whitesmoke;
+
+    width: 700px;
+    height: 25px;
+
+    margin-top: 30px;
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 8px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.user-section p {
+    font-size: 26px;
+}
+
+#user-name {
+    width: 220px;
+    height: 25px;
+
+    border: none;
+    border-radius: 5px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));  
+}
+
+/* Button  */
+
+#nave {
+    width: 60px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 50px;
+}
+
+.button button{
+    width: 200px;
+    height: 60px;
+
+    background: rgba(109, 247, 111, 1);
+
+    border: none;
+    border-radius: 8px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+/* avatar.html */
+
+/* header */
+header{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 30px;
+
+    font-size: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.avatar-h {
+    margin-top: 15px;
+}
+
+/* avatar */
+
+.avatares img {
+    width: 300px;
+}
+
+.avatares {
+    display: flex;
+    justify-content: center;
+}
+
+.av-1 label{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+
+/* secondGame */
+
+#title h1{
+    font-size: 36px;
+}
+
+.main-secondGame {
+    width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.cipherContainer {
+    background: rgba(38, 168, 242, 1);
+    color: white;
+
+    width: 400px;
+    height: 250px;
+
+    margin: 20px;
+    padding: 25px;
+
+    border: none;
+    border-radius: 14px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cipherContainer h2{
+    font-size: 35px;
+    margin: 15px;
+}
+
+.input-in {
+    background: rgba(140, 116, 188, 1);
+    color: white;
+    font-size: 16px;
+
+    width: 330px;
+    height: 50px;
+    margin: 0px;
+
+    border: none;
+}
+
+#encrypted{
+    background: rgba(140, 116, 188, 1);
+
+    width: 334px;
+    height: 30px;
+
+    margin: 0px 0px 10px;
+}
+
+.input-range {
+    width: 330px;
+    margin: 15px;
+    display: flex;
+
+}
+
+.input-range input{
+    width: 100%;
+    height: 30px;
+}
+
+.cipherContainer button {
+    background: rgba(109, 247, 111, 1);
+
+    width: 100px;
+    height: 50px;
+
+    border: none;
+    border-radius: 8px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.instructions {
+    background: rgba(140, 116, 188, 1);
+    color: white;
+
+    width: 400px;
+    height: 250px;
+
+    margin: 20px;
+    padding: 25px;
+
+    border: none;
+    border-radius: 14px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.firstQuest {
+    background: rgba(209, 175, 217, 1);
+    color: white;
+
+    width: 500px;
+    height: 410px;
+
+    padding: 30px;
+    margin: 20px;
+
+    border: none;
+    border-radius: 14px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.firstQuest h1{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+}
+
+.alt{
+    background: rgba(38, 168, 242, 1);
+
+    width: 450px;
+    padding: 10px;
+
+    border: none;
+    border-radius: 9px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
