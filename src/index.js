@@ -3,6 +3,8 @@ document.getElementById("welcomebtn").addEventListener("click", function() {wind
 })
 document.getElementById("avatarbtn").addEventListener("click", function() {window.location = "firstGame.html";
 })
+document.getElementById("welcomebtn").addEventListener("click", function() {window.location = "avatar.html";
+})
 document.getElementById("firstGamebtn").addEventListener("click", function() {window.location = "secondGame.html";
 })
 document.getElementById("SecondGamebtn").addEventListener("click", function() {window.location = "endingGame.html";
