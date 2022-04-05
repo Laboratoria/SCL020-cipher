@@ -1,23 +1,16 @@
-import cipher from './cipher.js';
-
-console.log(cipher);
 /*REDIRECCION A PAGINAS con window.location*/
-
-function btnFirstPage() {
-    window.location = "src/avatar.html";
-}
-  
-function btnSecondPage() {
-  window.location = "/firstGame.html";
-}
-  
-function btnThirdPage() {
-  window.location = "/secondGame.html";
-}
-  
-function btnEndingPage() {
-  window.location = "/welcome.html";
-  }
+document.getElementById("welcomebtn").addEventListener("click", function() {window.location = "avatar.html";
+})
+document.getElementById("avatarbtn").addEventListener("click", function() {window.location = "firstGame.html";
+})
+document.getElementById("welcomebtn").addEventListener("click", function() {window.location = "avatar.html";
+})
+document.getElementById("firstGamebtn").addEventListener("click", function() {window.location = "secondGame.html";
+})
+document.getElementById("SecondGamebtn").addEventListener("click", function() {window.location = "endingGame.html";
+})
+document.getElementById("endingGamebtn").addEventListener("click", function() {window.location = "index.html";
+})
   
   /* USANDO LOCAL STORAGE*/
   
