@@ -5,37 +5,39 @@
   <meta charset="utf-8">
   <title>Card</title>
   <link rel="stylesheet" href="style.css" />
-
+  <h1>INGRESA LOS DATOS DE TU TARJETA</h1>
 </head>
 
 <body>
   <div class="Cifrador">
+
     <div class="cipherCard">Cipher Card</div>
     <label for="numeroTarjeta">NUMERO TARJETA</label>
     <!--label etiqueta de interfaz y for permite ubicar el elemento en cualquier documento -->
-    <input type="number" id="numeroTarjeta"  />
-    <input type="number" id="numeroTarjeta" />
-    <input type="number" id="numeroTarjeta"  />
-    <input type="number" id="numeroTarjeta"  />
+    <input type="" id="numeroTarjeta" size="4" />
+    <input type="" id="numeroTarjeta" size="4" />
+    <input type="" id="numeroTarjeta" size="4" />
+    <input type="" id="numeroTarjeta" size="4" />
     <!--input type define el campo de entrada -->
+
     <label for="nombre">NOMBRE</label>
     <input type="text" id="nombre" size="50">
     <!---->
-    <label for="cv">CV</label>
+    <label for="expiracion">Expiracion</label>
+    <input type="text" id="MM/AA" size="5">
+    <!---->
+    <label for="cv">CVV</label>
     <input type="" id="cv" size="4">
   </div>
+  <!-- ingreso de datos del cliente-->
 
-  <div class="datos">
-    <label for="">NUMERO TARJETA</label>
-    <input type="number" id="datoNumerico" min="0">
-    <br><br>
-    <input type="submit">
-    <label for="">DATOS CLIENTE</label>
-    <input type="text" id="datotexto" size="50">
-    <br><br>
-    <input type="submit">
-  </div>
-
+  <section>
+    <input type="text" name="nombre" id="nombre" placeholder="NOMBRE">
+    <input type="number" name="numero" id="nombre" placeholder="NUMERO DE TARJETA">
+    <input type="text" name="expiracion" id="fechaExpiracion" placeholder="MM/AA">
+    <input type="number" name="" id="" placeholder="CVV">
+    <input type="email" name="email" id="gmail" placeholder="INGRESA TU GMAIL">
+    <input type="button" value="Enviar">
 </body>
 
 </html>

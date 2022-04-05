@@ -8,9 +8,11 @@
         /*cambio color letra */
         color: rgb(219, 191, 29);
         text-align: center;/*posicione las letras al centro*/
-        margin: 200px;/*posicione el cuadro mas abajo*/
+        margin-bottom: 7%;/*posicione el cuadro mas abajo*/
+        margin-top: 337.6px;
         font-size: 80px;/*tamaño de la letra */
         text-shadow: 6px 5px  #252020; /*sombra letra */
+        
     }
     
     .container{
@@ -31,31 +33,39 @@
     /*------segundo pie de pagina --------*/    
          /* Cipher Card */
 
-    .Cifrador{ 
+    .Cifrador{
+    
+    background-image: url(tarjeta.png); 
+    background-repeat: no-repeat;
+    background-size: 670px; 
+    height: 443px;;
+    padding-left: 57px;
+ 
+    
+    margin-left: 1082px;
+    
+   
 
-    background: rgba(204, 178, 28, 0.637);
-    border: 10px solid #742b2b;
-    height: 400px;
-    margin: 100px;
-    width: 700px;
-    left: 25px;
-    top: 350px;
-    border-radius: 30px;
-}
+} 
+                
+
 /*  ------- letra de tarjeta--------  */
 
 .Cifrador div {
-    display:flex;
-font-family: 'Jomolhari';/*Diseño de la letra*/
-text-indent: 40px;/*tabula hacia la izquierda la letra*/
-font-size: 50px;/*tamaño de letra*/
-line-height: 68px;/*altura de letra*/
-align-items: center;
-
+    
+    font-family: 'Jomolhari';/*Diseño de la letra*/
+    
+    color: #E0990F;/*color letra*/    
+    font-size: 35px;/*tamaño de letra*/
+    line-height: 100px;/*altura de letra*/
+    padding-top: 36px;
 }
-div label {
+ div label {
     display: flex;
    display: block;
    margin: 10px;
-  
+   color: #FFF9F9;/*color de letras */
+   
   }
+   
+  
