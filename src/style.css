@@ -182,11 +182,9 @@ li {
 
 #map{
     background: rgba(140, 116, 188, 1);
-    color: white;
-    
-
+    color: white; 
     width: 420px;
-    height: 450px;
+    height: 480px;
 
     margin: 20px;
     padding: 20px;
@@ -200,12 +198,12 @@ li {
 
     width: 400px;
     height: 400px;
-    margin-top: 10px;  
+    margin: 10px;
+    padding: 5px;  
     align-items: center; 
 }
-#firstGamebtn{
-    flex-direction: column-reverse;
-}
+
+
 /* secondGame */
 
 #title h1{
