@@ -1,16 +1,18 @@
 import cipher from './cipher.js';
 
 console.log(cipher);
-/*REDIRECCION A PAGINAS con window.location*/
 
-function btnFirstPage() {
-    window.location = "src/avatar.html";
-}
+/*REDIRECCION A PAGINAS con window.location*/
+document.getElementById("indexPage").addEventListener("click", ()=>{
+  window.location = "avatar.html"
+})
   
-function btnSecondPage() {
-  window.location = "/firstGame.html";
-}
-  
+let secondPage = document.getElementById("secondPage")
+secondPage.addEventListener("click", ()=>{
+  window.location = "firstGame.html"
+})
+
+
 function btnThirdPage() {
   window.location = "/secondGame.html";
 }
