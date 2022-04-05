@@ -1,4 +1,4 @@
-};
+
 
 export default cipher;
 function encodeCesar() {
@@ -45,7 +45,7 @@ function decodeCesar() {
       let originalCode = original[i].charCodeAt();
       console.log(originalCode);
       if ((originalCode >= 65) && (originalCode <= 90)) {
-        newOriginalCode = ((originalCode - 65 - parseInt(displace)) % 26 + 65);
+        newOriginalCode = ((originalCode - 90 - parseInt(displace)) % 26 + 90);
       }
       else {
         alert("SOLO LETRAS MAYUSCULAS");
