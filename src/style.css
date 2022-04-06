@@ -136,6 +136,72 @@ header{
     align-items: center;
     flex-direction: column-reverse;
 }
+/* firstGame */
+#firstMision h2{
+    text-align: center;   
+}
+#firstMision{
+    background: rgba(140, 116, 188, 1);
+    color: white;
+
+    width: 400px;
+    height: 250px;
+
+    margin: 20px;
+    padding: 25px;
+
+    border: none;
+    border-radius: 14px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+#firstGameIns h2 {
+text-align: center;
+}
+#firstGameIns {
+    background: rgba(140, 116, 188, 1);
+    color: white;
+    
+    width: 400px;
+    height: 300px;
+
+    margin: 20px;
+    padding: 25px;
+
+    border: none;
+    border-radius: 14px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    flex-wrap:nowrap;
+    flex-direction: column-reverse;    
+}
+li {
+    list-style-type: disc;
+}
+#map h2{
+    text-align: center;
+}
+
+#map{
+    background: rgba(140, 116, 188, 1);
+    color: white; 
+    width: 420px;
+    height: 480px;
+
+    margin: 20px;
+    padding: 20px;
+
+    border: none;
+    border-radius: 14px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   
+}
+#mapimg{
+
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    padding: 5px;  
+    align-items: center; 
+}
 
 
 /* secondGame */
@@ -221,6 +287,7 @@ header{
     border: none;
     border-radius: 8px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
 }
 
 .instructions {
