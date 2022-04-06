@@ -3,24 +3,11 @@ import cipher from './cipher.js';
 console.log(cipher);
 
 /*REDIRECCION A PAGINAS con window.location*/
-document.getElementById("indexPage").addEventListener("click", ()=>{
-  window.location = "avatar.html"
-})
-  
-let secondPage = document.getElementById("secondPage")
-secondPage.addEventListener("click", ()=>{
-  window.location = "firstGame.html"
+document.getElementById("welcomebtn").addEventListener("click", function() {window.location = "avatar.html";
 })
 
+  
 
-function btnThirdPage() {
-  window.location = "/secondGame.html";
-}
-  
-function btnEndingPage() {
-  window.location = "/welcome.html";
-  }
-  
   /* USANDO LOCAL STORAGE*/
   
   function getName() {
