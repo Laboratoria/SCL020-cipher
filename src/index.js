@@ -32,9 +32,8 @@ function btnEndingPage() {
   document.getElementById("print-name").innerHTML = "¡Hola " + nameLocalStorage + " vamos a jugar!";
   }
   
-  let text= document.getElementById("encrypted");
-  //let button= document.getElementById("btn");
-  btn.addEventListener('click', e => {
-      text.select();
-      document.execCommand('copy');
-    })
+  //let text= document.getElementById("encrypted");
+  //btn.addEventListener('click', e => {
+      //text.select();
+      //document.execCommand('copy');
+    //})
