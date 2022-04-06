@@ -7,35 +7,51 @@
     <link rel="stylesheet" href="style.css">
     <title>Primer Juego</title>
 </head>
-  <body>
-    <header id="img-avatar">
-      <h1>Misiones Espaciales</h1>
-    </header>
-  <main>
-    <div class="cipherContainer">
-      <h2>Cifrado Cesar</h2>
-      <label><input id="original" autocomplete="off" spellcheck="false" type="text">Ingresa tu texto</label>
-      <input id="displace" type="range" value="10" min="0" max="40" oninput="this.nextElementSibling.value = this.value">
-      <output>40</output>  
-      <br>
-      <textarea id="encrypted">CODIGO</textarea>
-      <br>
-      <button id="btn">COPIAR</button>
-      <button onclick="encodeCesar()">Cifrar</button>
+<body>
+  <header id="title">
+    <h1>Misiones Espaciales</h1>
+  </header>
+  <main class="main-secondGame">
+    <div class="cipher-inst">
+      <div class="cipherContainer">
+        <h2>Cifrado Cesar</h2>
+        <input id="original" class="input-in" autocomplete="off" spellcheck="false" type="text">
+        <p id="encrypted"></p> 
+        <div class="input-range">
+          <input id="displace" type="range" value="10" min="0" max="10" oninput="this.nextElementSibling.value = this.value">
+          <output>10</output>
+          <br>
+          <textarea id="encrypted">CODIGO</textarea>
+          <button id="btn">COPIAR</button>
+          <button onclick="encodeCesar()">Cifrar</button>
+        </div>
+      </div>  
     </div>
-    <div>
+    <div id="firstMision">
+       <h2>Primera mision</h2>
+       <p> _____haz recibido un mensaje en codigo desde el espacio <br> Son las intrucciones para visitar a tus amigos aliens en la galaxia vecina!<br>La primera pista ya esta decifrada ahora tu debes decifrar las siguientes para llegar a tu destino!</p>
+           <strong><ul>
+             <li>Desplaza 7 espacios en el alfabeto </li>
+             <li>Copia y pega los pasos en el cifrador</li>
+           </ul></strong>      
+    </div>
+    <div id="map">
+      <h2>Mapa</h2>
+      <img id="mapimg" src="img\mapafinal.png" alt="">
+    </div>
+    <div id="firstGameIns">
       <h2>Instrucciones</h2>
-      <p>lorem ipsum</p>
-    </div>
-    <div>
-      <h2>Introduccion</h2>
-    </div>
-    <div>
-      <p> Mapa</p>
-      <img src=img\mapafinal.png alt="">
-    </div>
-    <div class="btn-avatar">
-    <button class= 'button' id="firstGamebtn"> <img id="nave" src="img/spaceship.jpeg"></button>
+      <strong><ul>
+        <li>Desde F1 sube dos espacios</li>
+        <li>sfddfd dfsdf</li>
+        <li>dsfsdf sdfsdf</li>
+        <li>sfese sfefe</li>
+      </ul></strong>
+      <h3>Ingresa tu respuesta aca:</h3>
+      <input id="ansFirstGame" type="text">
+       <div class="button">
+        <button class= 'button' id="FirstGamebtn"> <img id="nave" src="img/spaceship.svg"></button>
+       </div>
     </div>
   </main>
 </body>

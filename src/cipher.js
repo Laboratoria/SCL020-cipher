@@ -1,6 +1,4 @@
-const cipher = {
-  // ...
-};
+
 
 export default cipher;
 function encodeCesar() {
