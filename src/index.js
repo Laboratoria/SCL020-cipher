@@ -13,18 +13,13 @@ document.getElementById("endingGamebtn").addEventListener("click", function() {w
 })
   
   /* USANDO LOCAL STORAGE*/
-  
-  function getName() {
-  let userName = document.getElementById('user-name').value;
-  localStorage.setItem('userName', userName);
-  
-  let nameLocalStorage = localStorage.getItem('userName');
-  
-  document.getElementById("print-name").innerHTML = "¡Hola " + nameLocalStorage + " vamos a jugar!";
-  }
-  
+let userName = document.getElementById('user-name').value;
+ localStorage.setItem('userName', userName);
+ let nameLocalStorage = localStorage.getItem('userName');
+ document.getElementById("print-name").innerHTML = "¡Hola " + nameLocalStorage + " vamos a jugar!";
+
+/*boton copiado*/  
   let text= document.getElementById("encrypted");
-  //let button= document.getElementById("btn");
   btn.addEventListener('click', e => {
       text.select();
       document.execCommand('copy');
