@@ -2,12 +2,6 @@ import cipher from './cipher.js';
 
 console.log(cipher);
 
-/*REDIRECCION A PAGINAS con window.location*/
-document.getElementById("welcomebtn").addEventListener("click", function() {window.location = "avatar.html";
-})
-
-  
-
   /* USANDO LOCAL STORAGE*/
   
   function getName() {
