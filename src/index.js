@@ -16,7 +16,7 @@ document.getElementById("welcomebtn").addEventListener("click", function() {wind
   
   let nameLocalStorage = localStorage.getItem('userName');
   
-  document.getElementById("print-name").innerHTML = "¡Hola " + nameLocalStorage + " vamos a jugar!";
+  document.getElementById("avatarh2").innerHTML = "¡Hola " + nameLocalStorage + " vamos a jugar!";
   }
   
   //let text= document.getElementById("encrypted");
