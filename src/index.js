@@ -8,9 +8,9 @@ document.getElementById("welcomebtn").addEventListener("click", function() {wind
 function getName() {
   let userName = document.getElementById('user-name').value;
   localStorage.setItem('userName', userName);
-  let nameLocalStorage = localStorage.getItem('userName');
-  document.getElementById("print-name").innerHTML = "¡Hola " + nameLocalStorage + " vamos a jugar!";
-  }
+}
+
+  
  /*COPIAR*/ 
 let text= document.getElementById("encrypted");
   btn.addEventListener('click', e => {
