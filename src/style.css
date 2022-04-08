@@ -16,16 +16,23 @@
     }
     
     .container{
-        display: flex;
-        justify-content: space-evenly;/* centro lo dos recuadros*/
+
+    display: flex;
+    
+  
+    justify-content: space-between;
+    
+   /* centro lo dos recuadros*/
+    margin-left: 649px;
+    margin-right: 649px;
+  
     }    
+    
     .container div button {        
         background-color: rgba(219, 191, 29, 0.5);
-        width: 300px;/*tamaño de separacion de cuadrado*/
-        padding: 15px;     
-        text-align: center; /*la posicion de la letras ,ponerlas al centro*/
-        line-height: 50px;/*tamaño de fuente de letra(separacion de ellas)*/
-        font-size: 50px;/*tamaño de la letra */
+        width: 500px;/*tamaño de separacion de cuadrado*/
+        padding-top: 210px; 
+         font-size: 81px;/*tamaño de la letra */
         border-radius: 35px ;
         text-shadow: 2px 1px  #252020; /*sombra letra */
     }
@@ -39,13 +46,10 @@
     background-repeat: no-repeat;
     background-size: 670px; 
     height: 443px;;
-    padding-left: 57px;
- 
-    
+    padding-left: 57px; 
     margin-left: 1082px;
     
    
-
 } 
                 
 
@@ -67,5 +71,17 @@
    color: #FFF9F9;/*color de letras */
    
   }
+  section {
+   
+    
+    margin-left: 939px; /*lado izquierdo de la caja*/
+    padding-left: 80px;
+    margin-left: 936px;
+
+}
+
+      
+  
+  
    
   
