@@ -12,7 +12,7 @@ function getName() {
   
   document.getElementById("avatarh2").innerHTML = "¡Hola " + nameLocalStorage + " vamos a jugar!";
   }
- /*COPIAR*/ 
+/*COPIAR*/ 
 let text= document.getElementById("encrypted");
   btn.addEventListener('click', e => {
       text.select();
