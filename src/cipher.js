@@ -1,6 +1,3 @@
-
-
-export default cipher;
 function encodeCesar() {
   
   let original = document.getElementById("original").value;
