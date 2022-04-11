@@ -255,15 +255,21 @@ li {
     margin: 0px;
 
     border: none;
+    border-radius: 5px;
+    filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.25));
 }
 
 #encrypted{
     background: rgba(140, 116, 188, 1);
 
     width: 334px;
-    height: 30px;
+    height: 50px;
 
-    margin: 0px 0px 10px;
+    margin: 15px;
+
+    border: none;
+    border-radius: 5px;
+    filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.25));
 }
 
 .input-range {
@@ -288,6 +294,167 @@ li {
     border-radius: 8px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     
+}
+                                    /* index.html */
+
+
+.welcome {
+    color: white;
+
+    text-align: center;
+    margin: 8px auto;
+
+    font-size: 30px;
+    font-weight: 700 bold;
+}
+
+.section-index {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.container-gif iframe {
+    border-radius: 8px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.container-instructions {
+    background-color: blanchedalmond;
+    width : 440px; 
+    height : 320px;
+}
+
+
+.footer-index {
+    margin: 0px auto;
+}
+
+#nave {
+    width: 60px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.button button{
+    width: 200px;
+    height: 60px;
+
+    background: rgba(109, 247, 111, 1);
+
+    border: none;
+    border-radius: 8px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+                                       /* firstGame */
+
+.main-firstGame {
+    width: 1100px;
+    height: 600px;
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#title h1{
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+
+#firstMision h2{
+    text-align: center;   
+    margin: 0px;
+}
+
+#firstMision{
+    background: rgba(140, 116, 188, 1);
+    color: white;
+
+    width: 450px;
+    height: 220px;
+
+    margin: 20px;
+    padding: 15px;
+
+    border: none;
+    border-radius: 14px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#firstGameIns h2 {
+text-align: center;
+}
+
+#firstGameIns {
+    background: rgba(140, 116, 188, 1);
+    color: white;
+    
+    width: 400px;
+    height: 300px;
+
+    margin: 20px;
+    padding: 25px;
+
+    border: none;
+    border-radius: 14px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    flex-wrap:nowrap;
+    flex-direction: column-reverse;    
+}
+
+li {
+    list-style-type: disc;
+}
+
+#map h2{
+    text-align: center;
+}
+
+#map{
+    background: rgba(140, 116, 188, 1);
+    color: white; 
+    width: 420px;
+    height: 480px;
+
+    margin: 20px;
+    padding: 20px;
+
+    border: none;
+    border-radius: 14px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#mapimg{
+
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    padding: 5px;  
+    align-items: center; 
+}
+
+
+                                       /* secondGame */
+.main-secondGame {
+    width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .instructions {
@@ -376,7 +543,7 @@ ul {
     text-align: center;
 
     margin-top: 0px;
-    padding-right: 50px;
+    padding: 50px;
 
     border: 20px;
     border-radius: 14px;
@@ -386,3 +553,8 @@ ul {
     align-items: center;
 }
 
+.main-end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
