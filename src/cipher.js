@@ -1,22 +1,16 @@
-
-
-export default cipher;
 function encodeCesar() {
   
   let original = document.getElementById("original").value;
-  let displace = document.getElementById("displace").value;
+  let offset = document.getElementById("offset").value;
   let newOriginalCode = "";
   let cipher = "";
-
-  console.log(original);
-  console.log(typeof displace);
 
   for (let i=0; i < original.length; i++) {
 
       let originalCode = original[i].charCodeAt();
       console.log(originalCode);
       if ((originalCode >= 65) && (originalCode <= 90)) {
-        newOriginalCode = ((originalCode - 65 + parseInt(displace)) % 26 + 65);
+        newOriginalCode = ((originalCode - 65 + parseInt(offset)) % 26 + 65);
       }
       else {
         alert("SOLO LETRAS MAYUSCULAS");
@@ -26,8 +20,6 @@ function encodeCesar() {
   }
     document.getElementById("encrypted").innerHTML = cipher;
 }
-
-
 
 
 function decodeCesar() {
