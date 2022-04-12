@@ -1,53 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Segundo Juego</title>
-</head>
-<body>
-    <header id="title">
-        <h1>Misiones Espaciales</h1>
-    </header>
-    <main class="main-secondGame">
-        <div class="cipher-inst">
-            <div class="cipherContainer">
-                <h2>Cifrado Cesar</h2>
-                <input id="original" class="input-in" autocomplete="off" spellcheck="false" type="text">
-                <p id="encrypted"></p> 
-                <div class="input-range">
-                    <input id="offset" type="range" value="10" min="0" max="10" oninput="this.nextElementSibling.value = this.value">
-                    <output>10</output>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Segundo Juego</title>
+    </head>
+    <body>
+        <header id="title">
+            <h1>Misiones Espaciales</h1>
+        </header>
+        <main class="main-secondGame">
+            <div class="cipher-inst">
+                <div class="cipherContainer">
+                    <h2>Cifrado Cesar</h2>
+                    <input id="original" class="input-in" autocomplete="off" spellcheck="false" type="text">
+                    <p id="encrypted"></p> 
+                    <div class="input-range">
+                        <input id="offset" type="range" value="10" min="0" max="10" oninput="this.nextElementSibling.value = this.value">
+                        <output>10</output>
+                    </div>
+                    <button id="btn-decode">Decifrar</button>
                 </div>
-                <button id="btn-decode">Decifrar</button>
-            </div>
-            <div class="instructions">
-                <h2>Instrucciones</h2>
-                <p>Ayuda a tus amigos Aliens con la respuesta correcta para su tarea de la escuela espacial.
-                Ojo que debes enviarla en el idioma que ellos usan para que puedan entenderte.
-                Desplaza 5 lugares en el alfabeto para dar con el codigo correcto </p>
-            </div>
-        </div>
-        <div class="quest-btn">
-            <div class="firstQuest">
-                <h1>Primera Mision</h1>
-                <h2>¿Cual es el 3er planeta mas cerca del sol?</h2>
-                <p class="alt">a.- PHUFXULR</p>
-                <p class="alt">b.- YHQXV</p>
-                <p class="alt">c.- WLHUUD</p>
-                <div class="answer-in">
-                    <label>Respuesta Aqui <input id="answer-in" type="text"></label>
+                <div class="instructions">
+                    <h2>Instrucciones</h2>
+                    <p>Ayuda a tus amigos Aliens con la respuesta correcta para su tarea de la escuela espacial.
+                    Ojo que debes enviarla en el idioma que ellos usan para que puedan entenderte.
+                    Desplaza 5 lugares en el alfabeto para dar con el codigo correcto </p>
                 </div>
             </div>
-            <div class="button">
-                <button class= 'button' id="secondGamebtn"> <img id="nave" src="img/spaceship.svg"></button>
+            <div class="quest-btn">
+                <div class="firstQuest">
+                    <h1>Primera Mision</h1>
+                    <h2>¿Cual es el 3er planeta mas cerca del sol?</h2>
+                    <p class="alt">a.- PHUFXULR</p>
+                    <p class="alt">b.- YHQXV</p>
+                    <p class="alt">c.- WLHUUD</p>
+                    <div class="answer-in">
+                        <label>Respuesta Aqui <input id="answer-in" type="text"></label>
+                    </div>
+                </div>
+                <div class="button">
+                    <button id="secondGamebtn"> <img id="nave" src="img/spaceship.svg"></button>
+                </div>
             </div>
-        </div>
-    </main>
-    <script src="secondGame.js" type="module"></script>
-    <script src="cipher.js" type="module"></script>
-    <script src="index.js" type="module"></script>
-</body>
+        </main>
+        <!-- <script src="secondGame.js"></script> -->
+        <script src="index.js" type="module"></script>
+    </body>
 </html>
