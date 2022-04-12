@@ -15,11 +15,9 @@ body {
 }
 
 
-/* welcome.html */
+                                        /* WELCOME */
 
-/* Header  */
-
-.welcome {
+.container-index {
     color: white;
 
     text-align: center;
@@ -28,8 +26,6 @@ body {
     font-size: 36px;
     font-weight: 700 bold;
 }
-
-                                       /* INDEX(welcome)  */
 
 .section-index {
     display: flex;
