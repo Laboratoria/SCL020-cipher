@@ -1,28 +1,32 @@
-function encodeCesar() {
+const cipher = function encodeCesar() {
   
-  let original = document.getElementById("original").value;
-  let offset = document.getElementById("offset").value;
-  let newOriginalCode = "";
-  let cipher = "";
-
-  for (let i=0; i < original.length; i++) {
-
-      let originalCode = original[i].charCodeAt();
-      console.log(originalCode);
-      if ((originalCode >= 65) && (originalCode <= 90)) {
-        newOriginalCode = ((originalCode - 65 + parseInt(offset)) % 26 + 65);
-      }
-      else {
-        alert("SOLO LETRAS MAYUSCULAS");
-        break;
-      }
-    cipher += String.fromCharCode(newOriginalCode);
-  }
-    document.getElementById("encrypted").innerHTML = cipher;
+    let original = document.getElementById("original").value;
+    let offset = document.getElementById("offset").value;
+    let newOriginalCode = "";
+    let cipher = "";
+  
+    for (let i=0; i < original.length; i++) {
+  
+        let originalCode = original[i].charCodeAt();
+        console.log(originalCode);
+        if ((originalCode >= 65) && (originalCode <= 90)) {
+          newOriginalCode = ((originalCode - 65 + parseInt(offset)) % 26 + 65);
+        }
+        else {
+          alert("SOLO LETRAS MAYUSCULAS");
+          break;
+        }
+      cipher += String.fromCharCode(newOriginalCode);
+    }
+      document.getElementById("encrypted").innerHTML = cipher;
 }
 
+export default cipher;
 
-function decodeCesar() {
+
+
+
+/*function decodeCesar() {
 
   let original = document.getElementById("original").value;
   let displace = document.getElementById("displace").value;
@@ -46,7 +50,7 @@ function decodeCesar() {
     cipher += String.fromCharCode(newOriginalCode);
   }
     document.getElementById("encrypted").innerHTML = cipher;
-}
+}*/
 
 
 
