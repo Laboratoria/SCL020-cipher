@@ -3,4 +3,4 @@ document.getElementById("secondGamebtn").addEventListener("click", function() {w
 document.getElementById("btn-decode").addEventListener("click", function() {decodeCesar();
 })
 
-export {decodeCesar}
+export {decodeCesar};
