@@ -29,51 +29,20 @@ body {
     font-weight: 700 bold;
 }
 
-/* Section  */
+                                       /* INDEX(welcome)  */
 
-section {
+.section-index {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 
-iframe {
+.container-gif iframe {
     border-radius: 8px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-
-.user-section {
-    background: rgb(141, 122, 179);
-    color: whitesmoke;
-
-    width: 700px;
-    height: 25px;
-
-    margin-top: 30px;
-    padding: 10px;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    border-radius: 8px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.user-section p {
-    font-size: 26px;
-}
-
-#user-name {
-    width: 220px;
-    height: 25px;
-
-    border: none;
-    border-radius: 5px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));  
-}
 
 /* Button  */
 
@@ -116,26 +85,6 @@ header{
     justify-content: space-around;
 }
 
-.avatar-h {
-    margin-top: 15px;
-}
-
-/* avatar */
-
-.avatares img {
-    width: 300px;
-}
-
-.avatares {
-    display: flex;
-    justify-content: center;
-}
-
-.av-1 label{
-    display: flex;
-    align-items: center;
-    flex-direction: column-reverse;
-}
 /* firstGame */
 #firstMision h2{
     text-align: center;   
@@ -192,7 +141,7 @@ li {
     border: none;
     border-radius: 14px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-   
+
 }
 #mapimg{
 
