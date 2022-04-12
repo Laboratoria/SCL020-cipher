@@ -6,10 +6,11 @@ h1 {
    
     color: rgb(219, 191, 29);/*cambio color letra */
     text-align: center;/*posicione las letras al centro*/
-    margin-bottom: 8%; /*posicione el cuadro mas abajo*/
+    margin-bottom: 10%; /*posicione el cuadro mas abajo*/
     margin-top: 122.6px;
     font-size: 80px;/*tamaño de la letra */
     text-shadow: 6px 5px #252020; /*sombra letra */
+
 
 }
 body {
@@ -18,16 +19,14 @@ body {
     align-items: center;/*posiciona a la derecha dejandolo al centro*/
     justify-content: center;/**/
     flex-direction: column;/**/
-    background-image: url(candado.png);/*imagen y tamaño */
-    background-repeat: no-repeat;/* para que la imagen no se repita */
-    background-attachment: fixed;/*comportamiento de imagen al desplazar */
-    background-size: cover;/*proporcion de la imagen*/
+    padding: 150px;
+    
 }
 
 .card {
     position: relative;
     display: inline-block;
-    border: 2px solid  rgba(243, 221, 30, 0.816); /*se agrego el borde del boton*/ 
+
     padding: 20px  50px;/*tamaño de boton alto y ancho*/
     color:black;  /*color de la letra */  
     font-weight: 700;/* tamaño de letra*/
@@ -35,7 +34,7 @@ body {
     text-decoration: none;/*elimina raya por defecto */
     background-color:rgba(243, 221, 30, 0.816);/*fondo del boton*/
     border-radius: 30px;/*para redondiar el boton*/
-    font-size: 2em;
+    font-size: 2.5em;/*cuerpo mas grande del texto*/
 }
 .decifrar{
 
@@ -45,6 +44,11 @@ body {
 
         /*selector plotante(movimiento de mouse) seudo classe*/
  .card:hover{
-    color:rgb(244, 8, 8);/*color letra */
-    background-color: transparent;/*fondo de caja*/
+    color:rgb(250, 248, 248);/*color letra */
+    background-color:rgba(189, 39, 2, 0.721) ;/*fondo de caja*/
+}
+/* selector activo al movimiento del mouse*/
+.card:active{
+    box-shadow:inset 0 0 60px rgba(248, 247, 245, 0.816);
+
 }
