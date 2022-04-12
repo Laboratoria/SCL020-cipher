@@ -1,35 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>Cipher Card</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style1.1.css">
+    <title>Cipher Card</title>
 </head>
 
 <body>
-  <script src="index.js" type="module"></script>
-  <div id="root">
+    <script src="index.js" type="module"></script>
     <h1>Comparte tu tarjeta Bancaria o credito de manera segura.</h1>
 
-    <div class="container">
-      <div class="cifrar">
+    <section class="container">
 
-        <!--el atributo (a) llama a el elemento (herf) que direcciona a otra pagina-->
-        <a href="cifrar.html" target="blank">
-          <button onclick="">Si quieres cifrar hazlo AQUI</button>
-        </a>
-        <!--hace la funcion de un boton-->
-       </div>
-
-      <div class="Decifrado">
-        <a href="decifrar.html" target="blank">
-          <!--el atributo (target)llama al elemento (blank) para habris a nueva ventana-->
-          <button onclick="">Si quieres Descifrar hazlo AQUI</button>
-        </a>
-        <!--hace la funcion de un boton-->
-
-      </div>
+        <div class="cifrar">
+            <a href="cifrar.html" class="cifrar card">Cifrar AQUI</a>
+            <!--# sera el enlase del link y se agrego una clase para los botones-->
+            <a href="decifrar.html" class="decifrar card">Decifrar AQUI</a>
+            <!---->
+        </div>
+    </section>
 
 </body>
 

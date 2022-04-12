@@ -1,0 +1,49 @@
+
+    /*------segundo pie de pagina --------*/
+            /* Cipher Card */
+body {
+
+    background-image: url(candado.png);
+    /*imagen y tamaño */
+    background-repeat: no-repeat;
+    /* para que la imagen no se repita */
+    background-attachment: fixed;
+    /*comportamiento de imagen al desplazar */
+    background-size: cover;
+    /*proporcion de la imagen*/
+    
+    }
+    
+    .Cifrador {
+    
+        background-image: url(tarjeta.png);
+        background-repeat: no-repeat;
+        background-size: 670px;
+        height: 443px;
+        padding-left: 57px;
+        margin-left: 1082px;
+    }
+    
+    /*  ------- letra de tarjeta--------  */
+    
+    .Cifrador div {
+    
+        font-family: 'Jomolhari';
+        /*Diseño de la letra*/
+        color: #E0990F;
+        /*color letra*/
+        font-size: 35px;
+        /*tamaño de letra*/
+        line-height: 100px;
+        /*altura de letra*/
+        padding-top: 36px;
+    }
+    
+    div label {
+        display: flex;
+        display: block;
+        margin: 10px;
+        color: #FFF9F9;
+        /*color de letras */
+    
+    }
