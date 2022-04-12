@@ -18,10 +18,10 @@
                 <input id="original" class="input-in" autocomplete="off" spellcheck="false" type="text">
                 <p id="encrypted"></p> 
                 <div class="input-range">
-                    <input id="displace" type="range" value="10" min="0" max="10" oninput="this.nextElementSibling.value = this.value">
+                    <input id="offset" type="range" value="10" min="0" max="10" oninput="this.nextElementSibling.value = this.value">
                     <output>10</output>
                 </div>
-                <button onclick="decodeCesar()">Decifrar</button>
+                <button id="btn-decode">Decifrar</button>
             </div>
             <div class="instructions">
                 <h2>Instrucciones</h2>
@@ -46,9 +46,8 @@
             </div>
         </div>
     </main>
-    <script src="index.js" type="module"></script>
     <script src="secondGame.js" type="module"></script>
-    <script src="endingGame.js" type="module"></script>
-    <script src="firstGame.js"></script>
+    <script src="cipher.js" type="module"></script>
+    <script src="index.js" type="module"></script>
 </body>
 </html>
