@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
 
 
-/* General */
+                                        /* GENERAL */
 
 * {
     font-family: 'Montserrat', sans-serif;
@@ -15,155 +15,9 @@ body {
 }
 
 
-                                        /* WELCOME */
 
-.container-index {
-    color: white;
+                                        /* CIPHER */
 
-    text-align: center;
-    margin: 15px auto;
-
-    font-size: 36px;
-    font-weight: 700 bold;
-}
-
-.section-index {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.container-gif iframe {
-    border-radius: 8px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-
-/* Button  */
-
-#nave {
-    width: 60px;
-}
-
-.button {
-    display: flex;
-    justify-content: center;
-
-    margin-top: 50px;
-}
-
-.button button{
-    width: 200px;
-    height: 60px;
-
-    background: rgba(109, 247, 111, 1);
-
-    border: none;
-    border-radius: 8px;
-
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-
-/* avatar.html */
-
-/* header */
-header{
-    color: whitesmoke;
-    text-align: center;
-    margin-top: 30px;
-
-    font-size: 40px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-/* firstGame */
-#firstMision h2{
-    text-align: center;   
-}
-#firstMision{
-    background: rgba(140, 116, 188, 1);
-    color: white;
-
-    width: 400px;
-    height: 250px;
-
-    margin: 20px;
-    padding: 25px;
-
-    border: none;
-    border-radius: 14px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-#firstGameIns h2 {
-text-align: center;
-}
-#firstGameIns {
-    background: rgba(140, 116, 188, 1);
-    color: white;
-    
-    width: 400px;
-    height: 300px;
-
-    margin: 20px;
-    padding: 25px;
-
-    border: none;
-    border-radius: 14px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    flex-wrap:nowrap;
-    flex-direction: column-reverse;    
-}
-li {
-    list-style-type: disc;
-}
-#map h2{
-    text-align: center;
-}
-
-#map{
-    background: rgba(140, 116, 188, 1);
-    color: white; 
-    width: 420px;
-    height: 480px;
-
-    margin: 20px;
-    padding: 20px;
-
-    border: none;
-    border-radius: 14px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
-}
-#mapimg{
-
-    width: 400px;
-    height: 400px;
-    margin: 10px;
-    padding: 5px;  
-    align-items: center; 
-}
-
-
-/* secondGame */
-
-#title h1{
-    font-size: 36px;
-}
-
-.main-secondGame {
-    width: 1100px;
-    height: 600px;
-    margin: 0 auto;
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 
 
 .cipherContainer {
@@ -237,24 +91,56 @@ li {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     
 }
-                                    /* index.html */
 
 
-.welcome {
+
+                                        /* BOTON */
+
+
+
+#nave {
+    width: 50px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 50px;
+}
+
+.button button{
+    width: 200px;
+    height: 60px;
+
+    background: rgba(109, 247, 111, 1);
+
+    border: none;
+    border-radius: 8px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+
+                                        /* WELCOME */
+
+
+
+.container-index {
     color: white;
 
     text-align: center;
-    margin: 8px auto;
+    margin: 15px auto;
 
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 700 bold;
 }
 
 .section-index {
     display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -277,74 +163,27 @@ li {
     margin: 0px auto;
 }
 
-#nave {
-    width: 50px;
-}
-
-.button {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}
-
-.button button{
-    width: 150px;
-    height: 50px;
-
-    background: rgba(109, 247, 111, 1);
-
-    border: none;
-    border-radius: 8px;
-
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
 
 
-                                       /* firstGame */
+                                        /* FIRST GAME */
 
-.main-container {
-    display: flex;
-    justify-content: center;
-}
 
-#title h1{
+
+.title h1{
     font-size: 36px;
-    color: white;
-    text-align: center;
 }
 
-/* #firstMision h2{
-    text-align: center;   
-    margin: 0px;
+.main-firstGame {
+    display: flex;
+    justify-content: center;
 }
 
-#firstMision{
+.firstGameIns {
     background: rgba(140, 116, 188, 1);
     color: white;
-    font-size: 10px;
-
-    width: 350px;
-    height: 100px;
-
-    margin: 20px;
-    padding: 15px;
-
-    border: none;
-    border-radius: 14px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-} */
-
-#firstGameIns h2 {
-    text-align: center;
-}
-
-#firstGameIns {
-    background: rgba(140, 116, 188, 1);
-    color: white;
-    font-size: 10px;
     
-    width: 280px;
-    height: 150px;
+    width: 400px;
+    height: 300px;
 
     margin: 20px;
     padding: 25px;
@@ -356,35 +195,63 @@ li {
     flex-direction: column-reverse;    
 }
 
-li {
+.firstGameIns h2 {
+    text-align: center;
+    }
+
+.firstGameIns li {
     list-style-type: disc;
 }
 
-#map{
+
+/* .firstMision h2{
+    text-align: center;   
+}
+.firstMision{
     background: rgba(140, 116, 188, 1);
-    color: white; 
-    width: 350px;
-    height: 360px;
+    color: white;
+
+    width: 400px;
+    height: 250px;
 
     margin: 20px;
-    padding: 20px;
-    
+    padding: 25px;
+
     border: none;
     border-radius: 14px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+} */
+
+
+.map{
+    background: rgba(140, 116, 188, 1);
+    color: white; 
+    width: 420px;
+    height: 480px;
+
+    margin: 20px;
+    padding: 20px;
+
+    border: none;
+    border-radius: 14px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
 }
 
-#mapimg{
+.mapimg{
 
-    width: 330px;
-    height: 330px;
+    width: 400px;
+    height: 400px;
     margin: 10px;
     padding: 5px;  
     align-items: center; 
 }
 
 
-                                       /* secondGame */
+
+                                        /* SECOND GAME */
+
+
 
 .main-secondGame {
     width: 1100px;
@@ -396,7 +263,7 @@ li {
     justify-content: space-between;
 }
 
-.instructions {
+.secondGameIns {
     background: rgba(140, 116, 188, 1);
     color: white;
 
@@ -411,11 +278,11 @@ li {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.instructions p {
+.secondGameIns p {
     text-align: justify;
 }
 
-.firstQuest {
+.quest {
     background: rgba(209, 175, 217, 1);
     color: white;
 
@@ -430,13 +297,9 @@ li {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.firstQuest h1{
+.quest h1{
     font-size: 36px;
     font-weight: 700;
-}
-
-ul {
-    list-style: none;
 }
 
 .alt{
@@ -473,15 +336,15 @@ ul {
 
 }
 
-                                       /* endingGame */
+                                       /* ENDING GAME */
 
-.main-end {
+.main-endingGame {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#end{
+.end{
     background: rgba(140, 116, 188, 1);
     color: white; 
     width: 600px;
