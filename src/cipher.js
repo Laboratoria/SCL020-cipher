@@ -1,3 +1,5 @@
+import{decodeCesar} from './cipher.js'
+
 function encodeCesar() {
   
   let original = document.getElementById("original").value;
@@ -21,11 +23,10 @@ function encodeCesar() {
     document.getElementById("encrypted").innerHTML = cipher;
 }
 
-
 function decodeCesar() {
 
   let original = document.getElementById("original").value;
-  let displace = document.getElementById("displace").value;
+  let displace = document.getElementById("offset").value;
   let newOriginalCode = "";
   let cipher = "";
 
