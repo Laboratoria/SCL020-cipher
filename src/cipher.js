@@ -1,83 +1,54 @@
-import{decodeCesar} from './cipher.js'
 
-function encodeCesar() {
+
+const encode = function encodeCesar(offset, original) {
   
-  let original = document.getElementById("original").value;
-  let offset = document.getElementById("offset").value;
-  let newOriginalCode = "";
-  let cipher = "";
+    let newOriginalCode = "";
+    let cipher = "";
 
-  for (let i=0; i < original.length; i++) {
+    if(offset <= 0 && original != String){
+      throw new TypeError("ERROR");
+    }
 
-      let originalCode = original[i].charCodeAt();
-      console.log(originalCode);
-      if ((originalCode >= 65) && (originalCode <= 90)) {
-        newOriginalCode = ((originalCode - 65 + parseInt(offset)) % 26 + 65);
-      }
-      else {
-        alert("SOLO LETRAS MAYUSCULAS");
-        break;
-      }
-    cipher += String.fromCharCode(newOriginalCode);
-  }
-    document.getElementById("encrypted").innerHTML = cipher;
-}
+    for (let i=0; i < original.length; i++) {
+  
+        let originalCode = original[i].charCodeAt();
 
-function decodeCesar() {
-
-  let original = document.getElementById("original").value;
-  let displace = document.getElementById("offset").value;
-  let newOriginalCode = "";
-  let cipher = "";
-
-  console.log(original);
-  console.log(typeof displace);
-
-  for (let i=0; i < original.length; i++) {
-
-      let originalCode = original[i].charCodeAt();
-      console.log(originalCode);
-      if ((originalCode >= 65) && (originalCode <= 90)) {
-        newOriginalCode = ((originalCode - 90 - parseInt(displace)) % 26 + 90);
-      }
-      else {
-        alert("SOLO LETRAS MAYUSCULAS");
-        break;
-      }
-    cipher += String.fromCharCode(newOriginalCode);
-  }
-    document.getElementById("encrypted").innerHTML = cipher;
+        if ((originalCode >= 65) && (originalCode <= 90)) {
+          newOriginalCode = ((originalCode - 65 + parseInt(offset)) % 26 + 65);
+        }
+      cipher += String.fromCharCode(newOriginalCode);
+    }
+    return cipher;
 }
 
 
 
+const decode = function decodeCesar(offset, original) {
 
-
-
-
-
-
-/*
-function cipherCesar(original, displace) {
-  let cipher = "";
-  let newletter = ""; 
-  let i = 0;
-  let original = document.getElementById("original").value;
-  let displace = document.getElementById("displace").value;
   let newOriginalCode = "";
+  let cipher = "";
 
-  for (i=0; i < original.length; i++) {
-      let originalCode = original.charCodeAt(i);
+  if(offset <= 0 && original != String){
+    throw new TypeError("ERROR");
+  }
 
-      if (originalCode >= 65 && originalCode <= 90){ 
-        newOriginalCode = (originalCode + displace)%26;
+  for (let i=0; i < original.length; i++) {
+
+      let originalCode = original[i].charCodeAt();
+
+      if ((originalCode >= 65) && (originalCode <= 90)) {
+        newOriginalCode = ((originalCode - 90 - parseInt(offset)) % 26 + 90);
       }
-    
-      else {
-        alert("nada esta pasando");
-      }
-   }
-        cipher += String.fromCharCode(newOriginalCode);
-  } 
-  document.getElementById("encrypted").innerHTML = cipher;
-}*/
+    cipher += String.fromCharCode(newOriginalCode);
+  }
+    return cipher;
+}
+
+
+
+const cipher = {encode, decode}
+
+export default cipher;
+
+
+
