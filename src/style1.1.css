@@ -1,49 +1,60 @@
-
-    /*------segundo pie de pagina --------*/
-            /* Cipher Card */
+             /*------segundo pie de pagina --------*/
+                    /* Cipher Card */
 body {
 
-    background-image: url(candado.png);
-    /*imagen y tamaño */
-    background-repeat: no-repeat;
-    /* para que la imagen no se repita */
-    background-attachment: fixed;
-    /*comportamiento de imagen al desplazar */
-    background-size: cover;
-    /*proporcion de la imagen*/
+    background-image: url(candado.png);/*imagen*/
+    background-repeat: no-repeat;/* para que la imagen no se repita */
+    background-attachment: fixed;/*comportamiento de imagen al desplazar */
+    background-size: cover; /*proporcion de la imagen*/
     
     }
+
+    h1 {
+   
+        color: rgb(219, 191, 29);/*cambio color letra */
+        text-align: center;/*posicione las letras al centro*/
+        margin-bottom: 7%; /*posicione el cuadro mas abajo*/
+        margin-top: 122px;
+        font-size: 70px;/*tamaño de la letra */
+        text-shadow: 6px 5px #252020; /*sombra letra */
     
+    }
+        
     .Cifrador {
     
         background-image: url(tarjeta.png);
         background-repeat: no-repeat;
-        background-size: 670px;
+        background-size: 670px;/*tamaño de imagen*/
         height: 443px;
-        padding-left: 57px;
-        margin-left: 1082px;
+        padding-left: 57px;/*cuadra contenido dentro de la imagen*/
+        margin-left: 35%; /*posicionó tarjeta y todo su contenido al centro */
+       
     }
     
     /*  ------- letra de tarjeta--------  */
     
     .Cifrador div {
     
-        font-family: 'Jomolhari';
-        /*Diseño de la letra*/
-        color: #E0990F;
-        /*color letra*/
+        font-family: 'Jomolhari';/*Diseño de la letra*/
+        color: #E0990F;/*color letra*/
         font-size: 35px;
-        /*tamaño de letra*/
-        line-height: 100px;
-        /*altura de letra*/
+        line-height: 100px;/*altura de letra*/
         padding-top: 36px;
+
+ 
     }
     
-    div label {
+    label {
+
         display: flex;
         display: block;
         margin: 10px;
-        color: #FFF9F9;
-        /*color de letras */
+        color: #FFF9F9; /*color de letras */
     
     }
+    input {
+
+        background: rgb(131, 127, 127);
+        
+    }
+  
