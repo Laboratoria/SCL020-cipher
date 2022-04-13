@@ -1,65 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="style.css">
-      <title>Primer Juego</title>
-  </head>
-  <body>
-    <header id="title">
-      <h1>Misiones Espaciales</h1>
-    </header>
-    <main class="main-container">
-      <div class="left-container">
-        <div class="cipher-inst">
-          <div class="cipherContainer">
-            <h2>Cifrado Cesar</h2>
-            <input id="original" class="input-in" spellcheck="false" type="text">
-            <p id="encrypted"></p> 
-            <div class="input-range">
-              <input id="offset" type="range" value="10" min="0" max="10" oninput="this.nextElementSibling.value = this.value">
-              <output>10</output>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Primer Juego</title>
+    </head>
+    <body>
+        <header class="title">
+            <h1>Misiones Espaciales</h1>
+        </header>
+        <main class="main-firstGame">
+            <div>
+                <div>
+                    <div class="cipherContainer">
+                        <h2>Cifrado Cesar</h2>
+                        <input id="original" class="input-in" spellcheck="false" type="text">
+                        <p id="encrypted"></p> 
+                        <div class="input-range">
+                            <input id="offset" type="range" value="10" min="0" max="10" oninput="this.nextElementSibling.value = this.value">
+                            <output>10</output>
+                        </div>
+                        <button id="btn-encode">Cifrar</button>
+                    </div>  
+                </div>
+                <div class="firstGameIns">
+                    <h2>Instrucciones</h2>
+                    <strong>
+                        <ul>
+                            <li>Desde F1 sube dos espacios</li>
+                            <li>sfddfd dfsdf</li>
+                            <li>dsfsdf sdfsdf</li>
+                            <li>sfese sfefe</li>
+                        </ul>
+                    </strong>
+                    <h3>Ingresa tu respuesta aca:</h3>
+                    <input class="ansFirstGame" type="text">
+                </div>
             </div>
-            <button id="btn-encode">Cifrar</button>
-          </div>  
-        </div>
-        <div id="firstGameIns">
-          <h2>Instrucciones</h2>
-          <strong>
-              <ul>
-                <li>Desde F1 sube dos espacios</li>
-                <li>sfddfd dfsdf</li>
-                <li>dsfsdf sdfsdf</li>
-                <li>sfese sfefe</li>
-            </ul>
-          </strong>
-          <h3>Ingresa tu respuesta aca:</h3>
-          <input id="ansFirstGame" type="text">
-        </div>
-      </div>
-      <div>
-        <!-- <div id="firstMision">
-          <h2>Primera mision</h2>
-          <p>Has recibido un mensaje en codigo desde el espacio <br> Son las intrucciones para visitar a tus amigos aliens en la galaxia vecina!<br>La primera pista ya esta decifrada ahora tu debes decifrar las siguientes para llegar a tu destino!</p>
-            <strong>
-              <ul>
-                <li>Desplaza 7 espacios en el alfabeto </li>
-              </ul>
-            </strong>      
-        </div> -->
-        <div id="map">
-          <img id="mapimg" src="img\mapafinal.png" alt="">
-        </div>
-      </div>
-    </main>
-    <footer class="footer-index">
-      <div class="button">
-        <button id="firstGamebtn"><img id="nave" src="img/spaceship.svg"></button>
-      </div>
-    </footer>
-  </body>
-      <!-- <script src="firstGame.js"></script>   -->
-      <script src="index.js" type="module"></script>
+            <div>
+                <!-- <div id="firstMision">
+                    <h2>Primera mision</h2>
+                    <p>Has recibido un mensaje en codigo desde el espacio <br> Son las intrucciones para visitar a tus amigos aliens en la galaxia vecina!<br>La primera pista ya esta decifrada ahora tu debes decifrar las siguientes para llegar a tu destino!</p>
+                    <strong>
+                        <ul>
+                            <li>Desplaza 7 espacios en el alfabeto </li>
+                        </ul>
+                    </strong>      
+                </div> -->
+                <div class="map">
+                    <img class="mapimg" src="img\mapafinal.png" alt="">
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="button">
+                <button id="firstGamebtn"><img id="nave" src="img/spaceship.svg"></button>
+            </div>
+        </footer>
+    </body>
+    <script src="index.js" type="module"></script>
 </html>
