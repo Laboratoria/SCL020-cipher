@@ -31,6 +31,14 @@ const btnWelcome = document.getElementById("welcomebtn");
 
 if (btnWelcome) {
     btnWelcome.addEventListener('click', ()=>{
+        window.location = "instructions.html";
+    });
+}
+
+const btnins = document.getElementById("instructionsbtn");
+
+if (btnins) {
+    instructionsbtn.addEventListener('click', ()=>{
         window.location = "firstGame.html";
     });
 }
