@@ -58,3 +58,20 @@ if (btnendingGame) {
         window.location = "index.html";
     });
 }
+
+/* VALIDANDO RESPUESTAS */
+
+const answerIn = document.getElementById("answer-in").value;
+const btnAnswerIn = document.getElementById("btn-answerIn");
+const correct = typeof "WLHUUD";
+
+btnAnswerIn.addEventListener("click", ()=>{
+    console.log(typeof answerIn);
+    console.log(correct);
+    if (answerIn && correct){
+        alert("¡Respuesta Correcta! Puedes pasar al siguiente juego")
+    }
+    else {
+        alert("Oh oh... ¡Intentalo de nuevo!")
+    }
+})
