@@ -11,10 +11,15 @@
         <header class="title">
             <h1>Misiones Espaciales</h1>
         </header>
-        <main class="main-secondGame">
-            <div>
+        <main class="mainbox">
+            <div class="secondGameIns">
+                <p> <strong>Instrucciones:</strong><br> Ayuda a tus amigos Aliens con la respuesta correcta para su tarea de la escuela espacial.
+                Ojo que debes enviarla en el idioma que ellos usan para que puedan entenderte.
+                Desplaza 5 lugares en el alfabeto para dar con el codigo correcto </p>
+            </div>
+            <div class="main-secondGame">
                 <div class="cipherContainer">
-                    <h2>Cifrado Cesar</h2>
+                    <h2>Cipher Cesar</h2>
                     <input id="original" class="input-in" autocomplete="off" spellcheck="false" type="text">
                     <p id="encrypted"></p> 
                     <div class="input-range">
@@ -23,31 +28,22 @@
                     </div>
                     <button id="btn-decode">Decifrar</button>
                 </div>
-                <div class="secondGameIns">
-                    <h2>Instrucciones</h2>
-                    <p>Ayuda a tus amigos Aliens con la respuesta correcta para su tarea de la escuela espacial.
-                    Ojo que debes enviarla en el idioma que ellos usan para que puedan entenderte.
-                    Desplaza 5 lugares en el alfabeto para dar con el codigo correcto </p>
-                </div>
-            </div>
-            <div>
                 <div class="quest">
-                    <h1>Primera Mision</h1>
-                    <h2>¿Cual es el 3er planeta mas cerca del sol?</h2>
-                    <p class="alt">a.- PHUFXULR</p>
-                    <p class="alt">b.- YHQXV</p>
-                    <p class="alt">c.- WLHUUD</p>
-                    <div class="answer-in">
-                        <label>Respuesta Aqui <input id="answer-in" type="text"></label>
-                        <button id="btn-answerIn">Submit</button>
+                    <h3>Primera Mision</h3>
+                    <p>¿Cual es el 3er planeta mas cerca del sol?</p>
+                    <div class="btn-answers">
+                        <button class="alt">a.- PHUFXULR</button>
+                        <button class="alt">b.- YHQXV</button>
+                        <button class="alt">c.- WLHUUD</button>
                     </div>
-                </div>
-                <div class="button">
-                    <button id="secondGamebtn"> <img id="nave" src="img/spaceship.svg"></button>
                 </div>
             </div>
         </main>
-        <!-- <script src="secondGame.js"></script> -->
+        <footer>
+            <div class="button">
+                <button id="secondGamebtn"> <img id="nave" src="img/spaceship.svg"></button>
+            </div>
+        </footer>
         <script src="index.js" type="module"></script>
     </body>
 </html>
