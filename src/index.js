@@ -2,6 +2,8 @@ import cipher from './cipher.js';
 
 const btnEncode = document.getElementById("btn-encode");
 
+
+
 if (btnEncode) {
     btnEncode.addEventListener('click', ()=>{
         let original = document.getElementById("original").value;
@@ -65,4 +67,25 @@ if (btnendingGame) {
     btnendingGame.addEventListener('click', ()=>{
         window.location = "index.html";
     });
+}
+
+
+/* ALTERNATIVAS */
+
+const altA = document.getElementById("alt-a");{
+    altA.addEventListener("click", ()=>{
+        alert("Oh oh.. ¡Intentalo de nuevo!");
+    })
+}
+
+const altB = document.getElementById("alt-b");{
+    altB.addEventListener("click", ()=>{
+        alert("Oh oh.. ¡Intentalo de nuevo!");
+    })
+}
+
+const altC = document.getElementById("alt-c");{
+    altC.addEventListener("click", ()=>{
+        alert("¡Tu si sabes tus respuestas!");
+    })
 }
