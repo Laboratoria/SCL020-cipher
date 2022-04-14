@@ -28,5 +28,11 @@ el juego consiste en cuatro pantallas donde encontraras:
 -Un boton que lo regresa a la primera pantalla.
 
 
-    
+Fotos prototipo figma: 
+
+![alt text](img/prototipo.png)
+
+![alt text](img/prototipo2.png)
+
+![alt text](img/prototipo3.png)
 
