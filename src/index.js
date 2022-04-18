@@ -1,8 +1,8 @@
 import cipher from './cipher.js';
 
+
+
 const btnEncode = document.getElementById("btn-encode");
-
-
 
 if (btnEncode) {
     btnEncode.addEventListener('click', ()=>{
@@ -12,7 +12,6 @@ if (btnEncode) {
         document.getElementById("encrypted").innerHTML = result;
     });
 }
-
 
 
 const btnDecode = document.getElementById("btn-decode");
