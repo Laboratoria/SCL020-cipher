@@ -1,48 +1,65 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>Card</title>
-  <link rel="stylesheet" href="style1.1.css" />
-  <h1>INGRESA LOS DATOS DE TU TARJETA</h1>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style1.1.css" />
+    <title>Card</title>
 </head>
 
 <body>
-  <div class="Cifrador">
+    <h1>INGRESA LOS DATOS DE TU TARJETA</h1>
+    <section class="card" id="card">
+        <div class="cipherCard">Cipher Card</div>
 
-    <div class="cipherCard">Cipher Card</div>
-    <label for="numeroTarjeta">NUMERO TARJETA</label>
-    <!--label etiqueta de interfaz y for permite ubicar el elemento en cualquier documento -->
-    <input type="" id="numeroTarjeta" size="4" />
-    <input type="" id="numeroTarjeta" size="4" />
-    <input type="" id="numeroTarjeta" size="4" />
-    <input type="" id="numeroTarjeta" size="4" />
-    <!--input type define el campo de entrada -->
+        <div class="Cifrador">
+            <div class="datosNumer" id="numeroTarjeta">
+                <p class="label">NUMERO TARJETA</p>
+                <p class="number">#### #### #### ####</p>
+            </div>
+            <div class="datos">
+                <div class="datosTexto" id="nombre">
+                    <p class=" label">NOMBRE</p>
+                    <p class="texto">Pepito Paga Doble </p>
+                </div>
+                <div class="datoExpiracion" id="Expiracion">
+                    <p class="label">Expiracion</p>
+                    <p class="expiracion"><span class="mes"> MM </span> / <span class="year">AA</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------ formulario card--------->
 
-    <label for="nombre">NOMBRE</label>
-    <input type="text" id="nombre" size="50">
-    <!---->
-    <label for="expiracion">Expiracion</label>
-    <input type="text" id="MM/AA" size="5">
-    <!---->
-    <label for="cv">CVV</label>
-    <input type="" id="cv" size="4">
-  </div>
-  <!-- ingreso de datos del cliente-->
+    <form action="" id="formularioCard" class="formularioCard">
+        <div class="formulario">
 
-  <section>
-    <input type="text" name="nombre" id="nombre" placeholder="NOMBRE"></br></br>
+            <label for="numeroCard">NUMERO TARJETA</label>
+            <input type="text" id="numeroCard" maxlength="19" autocomplete="off">
+        </div>
+        <!---laber: selecciona el cursor para introduccior dato-->
+        <div class="nombreData">
+            <label for="nombreCard">NOMBRE</label>
+            <input type="text" id="nombreCard" maxlength="19" autocomplete="off">
+        </div>
 
-    <input type="number" name="numero" id="nombre" placeholder="NUMERO DE TARJETA"></br></br>
+        <div class="fechaExpire">
 
-    <input type="text" name="expiracion" id="fechaExpiracion" placeholder="MM/AA"></br></br>
+            <label for="expireCard">Expiracion</label>
+            <input type="text" id="expireCardMes" placeholder="Mes"maxlength="3" autocomplete="off">
+          
+            <input type="text" id="expireCardYear"placeholder="Año" maxlength="4" autocomplete="off">
+            
+        </div>
+        <div class="posicion">
 
-    <input type="number" name="" id="" placeholder="CVV"></br></br>
+            <label for="posicionCifrar">Espacio a cifrar</label>
+            <input type="text" id="posicionCifrar" maxlength="9" autocomplete="off">
 
-    <input type="email" name="email" id="gmail" placeholder="INGRESA TU GMAIL"></br></br>
+        </div>
 
-    <input type="button" value="Enviar"></br></br>
+        <button type="submit" id="enviar">Enviar</button>
+    </form>
+
 </body>
 
 </html>

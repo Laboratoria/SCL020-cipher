@@ -1,7 +1,4 @@
-*{ font-family: "Montserrat",sans-serif;
-     
 
-}
 h1 {
    
     color: rgb(219, 191, 29);/*cambio color letra */
@@ -14,6 +11,7 @@ h1 {
 
 }
 body {
+    background:rgb(185, 4, 142);
     display: flex;
     padding-top: 600px; /*posicion de arriba hacia bajo */
     align-items: center;/*posiciona a la derecha dejandolo al centro*/
@@ -26,7 +24,6 @@ body {
 .card {
     position: relative;
     display: inline-block;
-
     padding: 20px  50px;/*tamaño de boton alto y ancho*/
     color:black;  /*color de la letra */  
     font-weight: 700;/* tamaño de letra*/
