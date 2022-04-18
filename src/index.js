@@ -1,8 +1,8 @@
 import cipher from './cipher.js';
 
+
+
 const btnEncode = document.getElementById("btn-encode");
-
-
 
 if (btnEncode) {
     btnEncode.addEventListener('click', ()=>{
@@ -12,7 +12,6 @@ if (btnEncode) {
         document.getElementById("encrypted").innerHTML = result;
     });
 }
-
 
 
 const btnDecode = document.getElementById("btn-decode");
@@ -29,7 +28,7 @@ if (btnDecode) {
 /* WINDOW LOCATIONS */
 
 
-const btnWelcome = document.getElementById("welcomebtn");
+const btnWelcome = document.getElementById("welcomeBtn");
 
 if (btnWelcome) {
     btnWelcome.addEventListener('click', ()=>{
@@ -37,10 +36,10 @@ if (btnWelcome) {
     });
 }
 
-const btnins = document.getElementById("instructionsbtn");
+const btnInst = document.getElementById("instBtn");
 
-if (btnins) {
-    instructionsbtn.addEventListener('click', ()=>{
+if (btnInst) {
+    btnInst.addEventListener('click', ()=>{
         window.location = "firstGame.html";
     });
 }
@@ -70,22 +69,3 @@ if (btnendingGame) {
 }
 
 
-/* ALTERNATIVAS */
-
-const altA = document.getElementById("alt-a");{
-    altA.addEventListener("click", ()=>{
-        alert("Oh oh.. ¡Intentalo de nuevo!");
-    })
-}
-
-const altB = document.getElementById("alt-b");{
-    altB.addEventListener("click", ()=>{
-        alert("Oh oh.. ¡Intentalo de nuevo!");
-    })
-}
-
-const altC = document.getElementById("alt-c");{
-    altC.addEventListener("click", ()=>{
-        alert("¡Tu si sabes tus respuestas!");
-    })
-}

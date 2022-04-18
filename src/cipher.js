@@ -1,5 +1,3 @@
-
-
 const encode = function encodeCesar(offset, original) {
   
     let newOriginalCode = "";
