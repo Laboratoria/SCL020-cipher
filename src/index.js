@@ -29,7 +29,7 @@ if (btnDecode) {
 /* WINDOW LOCATIONS */
 
 
-const btnWelcome = document.getElementById("welcomebtn");
+const btnWelcome = document.getElementById("welcomeBtn");
 
 if (btnWelcome) {
     btnWelcome.addEventListener('click', ()=>{
@@ -37,10 +37,10 @@ if (btnWelcome) {
     });
 }
 
-const btnins = document.getElementById("instructionsbtn");
+const btnInst = document.getElementById("instBtn");
 
-if (btnins) {
-    instructionsbtn.addEventListener('click', ()=>{
+if (btnInst) {
+    btnInst.addEventListener('click', ()=>{
         window.location = "firstGame.html";
     });
 }
