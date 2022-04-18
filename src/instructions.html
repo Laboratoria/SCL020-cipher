@@ -1,36 +1,44 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Caesar Cipher</title>
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-    <div class="title">
-        <h1>Bienvenido viajero en este juego vas a poder descubrir como descifrar mensajes secretos con una técnica llamada Cifrado Cesar.</h1>
-    </div>
-    <div class="inst">
-        <h1>¿Cómo funciona? <br> El cifrado César consiste en sustituir cada letra del abecedario por una letra desplazada un número determinado de posiciones. Por ejemplo, si desplazamos 1 posición, reemplazaríamos la letra A con la B, la B con la C, y así sucesivamente hasta sustituir la Z por la A. <br> Intenta ingresar tu nombre con 1 de desplazamiento y ve que pasa!</h1>
-    </div>
-    <div id="cipherInst">
-        <div class="cipherContainer">
-            <h2>Cifrado Cesar</h2>
-            <input id="original" class="input-in" spellcheck="false" type="text">
-            <p id="encrypted"></p> 
-            <div class="input-range">
-                <input id="offset" type="range" value="10" min="0" max="10" oninput="this.nextElementSibling.value = this.value">
-                <output>10</output>
-            </div>
-            <button id="btn-encode">Cifrar</button>
-        </div> 
-    </div>  
-    <div class="button">
-        <button id="instBtn"><img id="nave" src="img/spaceship.svg"></button>
-    </div>
+    <header class="title">
+        <h1>¡Bienvenido viajero!</h1>
+        <p>En este juego vas a poder descubrir como descifrar mensajes secretos con una técnica llamada Cifrado Cesar.</p>
+    </header>
+    <main class="main-inst">
+        <div class="inst">
+            <p>¿Cómo funciona?</p>
+            <p>César consiste en sustituir cada letra del abecedario por una letra 
+            desplazada un número determinado de posiciones. Por ejemplo, si desplazamos 1 posición, reemplazaríamos 
+            la letra A con la B, la B con la C, y así sucesivamente hasta sustituir la Z por la A. </p>
+            <p>Intenta ingresar tu nombre con 1 de desplazamiento y ve que pasa!</p>
+        </div>
+        <div id="cipherInst">
+            <div class="cipherContainer">
+                <h2>Cifrado Cesar</h2>
+                <input id="original" class="input-in" spellcheck="false" type="text">
+                <p id="encrypted"></p> 
+                <div class="input-range">
+                    <input id="offset" type="range" value="10" min="0" max="10" oninput="this.nextElementSibling.value = this.value">
+                    <output>10</output>
+                </div>
+                <button id="btn-encode">Cifrar</button>
+            </div> 
+        </div>  
+    </main>
+    <footer>
+        <div class="button">
+            <button id="instBtn"><img id="nave" src="img/spaceship.svg"></button>
+        </div>
+    </footer>
     </body>
     <script src="index.js" type="module"></script>
     <script src="cipher.js" type="module"></script>
-
 </html>

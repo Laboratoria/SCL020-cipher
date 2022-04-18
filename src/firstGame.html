@@ -11,26 +11,27 @@
         <header class="title">
             <h1>Primera misión</h1>
         </header>
-        <div class="firstGameSub">
-            <p> <strong>¿Sabias que?:</strong><br>La Luna ejerce una fuerte influencia sobre el medio ambiente de la Tierra, causando las mareas, que afectan las corrientes marinas, y estabilizando el eje de rotación terrestre, algo esencial para poder mantener el ciclo de las estaciones.</p>
-        </div>
-        <div class="cipherContainer">
-            <h2>Cifrado Cesar</h2>
-            <input id="original" class="input-in" spellcheck="false" type="text">
-            <p id="encrypted"></p> 
-            <div class="input-range">
-                <input id="offset" type="range" value="10" min="0" max="10" oninput="this.nextElementSibling.value = this.value">
-                <output>10</output>
+        <main class="main-first">
+                <p class="firstGameSub"><strong>¿Sabias que?:</strong><br>La Luna ejerce una fuerte influencia sobre el medio ambiente de la Tierra, causando las mareas, que afectan las corrientes marinas, y estabilizando el eje de rotación terrestre, algo esencial para poder mantener el ciclo de las estaciones.</p>
+            <div class="first-box">
+                <div class="cipherContainer">
+                    <h2>Cifrado Cesar</h2>
+                    <input id="original" class="input-in" spellcheck="false" type="text">
+                    <p id="encrypted"></p> 
+                    <div class="input-range">
+                        <input id="offset" type="range" value="10" min="0" max="10" oninput="this.nextElementSibling.value = this.value">
+                        <output>10</output>
+                    </div>
+                    <button id="btn-encode">Cifrar</button>
+                </div>
+                <div class="firstQuest">
+                    <p>Prueba en el cifrador cual de estas opciones te da cifrado "RATG" <br>Pista: El desplazamiento de 6</p>
+                            <p class="alt">a.- NOVA</p>  
+                            <p class="alt">b.- LUNA</p>
+                            <p class="alt">c.- NAVE</p>
+                </div>
             </div>
-            <button id="btn-encode">Cifrar</button>
-        </div>
-        <div class="fisrtQuest">
-            <h2>Prueba el cifrador cesar para saber en cual de estas opciones puedes leer luna si le das 6 espacios de desplazamiento</h2>
-                <h3>Prueba el cifrador cesar para saber en cual de estas opciones puedes leer luna si le das 6 espacios de desplazamiento</h3>
-                    <p>a.-KTMZ</p>  
-                    <p>b.-FOHU</p>
-                    <p>c.-CLER</p>
-        </div>
+        </main>
         <footer>
             <div class="button">
                 <button id="firstGamebtn"><img id="nave" src="img/spaceship.svg"></button>
