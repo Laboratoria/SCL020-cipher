@@ -25,6 +25,16 @@ body {
     font-weight: 700 bold;       
 }
 
+#start{
+    color: white;
+    
+    text-align: center;
+    margin: 15px auto;
+    
+    font-size: 20px;
+    font-weight: 700 bold;
+}
+
                                         /* CIPHER */
 
 
@@ -178,36 +188,50 @@ body {
                                         /* INSTRUCTIONS */
 
 
-
-
-.instContainer {
+.inst{
     display: flex;
-    flex-direction:column;
-    align-items:initial;
-}
 
-.inst {
     background: rgba(140, 116, 188, 1);
     color: white;
-    font-size: 10px;
-    
-    margin: 20px;
-    padding: 25px;
-    
-    width: 400px;
-    height: 300px;
+
+    width: 600px;
+    height: 500px;
+    margin: 0px auto;
+    padding: 10px;
+
+    text-align: justify;
+    font-size: 15px;
 
     border: none;
     border-radius: 14px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    align-content: flex-end;
+}
 
+#cipherInst{
     display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
+
                                         /* FIRST GAME */
 
+.firstGameSub{
+    background: rgba(140, 116, 188, 1);
+    color: white;
+
+    width: 800px;
+    height: 80px;
+    margin: 0px auto;
+    padding: 10px;
+
+    text-align: justify;
+    font-size: 15px;
+
+    border: none;
+    border-radius: 14px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); 
+}
 
 
 .title h1{
@@ -216,60 +240,20 @@ body {
     text-align: center;
 }
 
-.main-firstGame {
-    display: flex;
-    justify-content: center;
-}
-
-.firstGameIns {
-    background: rgba(140, 116, 188, 1);
+.fisrtQuest{
+    background: rgba(209, 175, 217, 1);
     color: white;
-    
-    width: 400px;
-    height: 300px;
-
-    margin: 20px;
-    padding: 25px;
-
-    border: none;
-    border-radius: 14px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    flex-wrap:nowrap;
-    flex-direction: column-reverse;    
-}
-
-.firstGameIns h2 {
-    text-align: center;
-    }
-
-.firstGameIns li {
-    list-style-type: disc;
-}
-
-.map{
-    background: rgba(140, 116, 188, 1);
-    color: white; 
-    width: 380px;
-    height: 400px;
-
-    margin: 20px;
-    padding: 20px;
-
-    border: none;
-    border-radius: 14px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
-}
-
-.mapimg{
 
     width: 360px;
-    height: 360px;
-    margin: 10px;
-    padding: 5px;  
+    height: 400px;
+
+    padding: 15px;
+    margin: 20px;
+
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-
-
 
                                         /* SECOND GAME */
 
