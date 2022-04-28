@@ -1,20 +1,16 @@
 body {
-    background-image: url(tarjeta.png);
-    background: rgba(154, 54, 179, 0.677);
-    font-family: 'lato', sans-serif;
-}
-
-.mensaje2 {
-    background-color: rgba(3, 31, 70, 0);
+    background-image: url(candado.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 h1 {
+    padding-top: 1%;
     color: rgb(219, 191, 29);
     /*cambio color letra */
     text-align: center;
     /*posicione las letras al centro*/
-    margin-bottom: 5%;
-    /*posicione el cuadro mas abajo*/
     margin-top: 62px;
     font-size: 70px;
     /*tamaño de la letra */
@@ -27,14 +23,17 @@ h1 {
     /*Diseño de la letra*/
     color: #E0990F;
     /*color letra*/
-    font-size: 35px;
+    font-size: 55px;
     /*tamaño de la letras*/
-    line-height: 100px;
+    line-height: 122px;
     /*altura de letra*/
+    padding-top: 2%;
+    padding-left: 11%;
 }
 
 .Cifrador {
-    width: 90%;
+    margin-top: -68px;
+    width: 104%;
     /*tamaño de pagina*/
     max-width: 1000px;
     /*limitar ancho pagina*/
@@ -43,7 +42,6 @@ h1 {
 }
 
 .card {
-    width: 100%;
     /*ancho tarjeta */
     max-width: 600px;
     /* maximo tarjeta */
@@ -51,10 +49,15 @@ h1 {
     color: #fff;
     /*color letra*/
     background: url(tarjeta.png);
-    background-size: 670px;
+    background-repeat: no-repeat;
+    background-size: 100%;
     /*tamaño de imagen*/
-    padding-left: 57px;
-    /*cuadra contenido dentro de la imagen*/
+    width: 249%;
+    height: 653px;
+    padding-bottom: 1px;
+    padding-left: 113px;
+    padding-top: 32px;
+    padding-right: 370px;
 }
 
 .label {
@@ -62,7 +65,17 @@ h1 {
     /*tamaño letra*/
     color: darkgoldenrod;
     /*color letra*/
-    margin-bottom: 10px;
+    margin-left: 9px;
+}
+
+::placeholder {
+    color: #fdfdfd;
+}
+
+.mensaje2 {
+    border: #4caf4f00;
+    background-color: #25202000;
+    padding-top: 16px;
 }
 
 .datosNumer .number {
@@ -87,12 +100,12 @@ h1 {
 /*---- formulario ----*/
 
 .formularioCard {
-    background-color: rgba(247, 79, 174, 0.716);
+    background-color: rgba(247, 79, 174, 0.425);
     width: 100%;
     /* ancho de la caja */
     max-width: 500px;
     /*maximo de caja*/
-    padding: 4% 30px 30px 30px;
+    padding: 30px 30px 30px;
     border-radius: 40px;
     /*doble de las puntas */
     margin-left: 38.5%;
@@ -103,7 +116,7 @@ h1 {
 .formularioCard label {
     display: block;
     /*ocupa toda la linea */
-    color: rgb(16, 16, 16);
+    color: rgb(14, 11, 11);
     /*color letra */
     margin-bottom: 5px;
     /* margen del booton (separaciones)*/
@@ -122,7 +135,8 @@ input {
     /* ancho de boton de datos */
     padding: 5px 12px;
     /*ancho  boton y posicion de letra,dentro  */
-    border-radius: 50px/*redondear el botom*/
+    border-radius: 50px
+    /*redondear el botom*/
 }
 
 button {

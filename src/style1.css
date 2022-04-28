@@ -17,12 +17,15 @@ h1 {
 }
 
 body {
-    background-color: darkmagenta;
+    background-image: url(candado.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     display: flex;
     align-items: center;
     /*posiciona a la derecha dejandolo al centro*/
     flex-direction: column;
-    /**/
+    /*posiciono la colunma*/
     padding: 150px;
 }
 
