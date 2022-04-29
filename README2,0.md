@@ -12,13 +12,15 @@ para definir el producto final a nivel de experiencia y de interfaz.
 
 * se creo diseño de la pagina principal la cual el cliente ingresara y con un boton escojera si su necesidad es cifrar o decifrar una tarjeta.
 
-  [imagen del diseño](https://www.figma.com/community/file/1091856072144214248/CipherCard) 
+![imagen del diseño](diseñoFigma.png)
+
 
 * segunda pagina: el cliente debe ingresar los datos de la tarjeta a cifrar 
 
 - [ ] ¿Quiénes son los principales usuarios de producto?
    
-* Un undividuo con la necesidad de cifrar o decifrar su tarjeta de credito,debito o bancaria.
+* Un individuo con la necesidad de cifrar o decifrar una tarjeta especifica
+
 
  - [ ] Cuáles son los objetivos de estos usuarios en relación con tu producto.
    
@@ -31,5 +33,51 @@ para definir el producto final a nivel de experiencia y de interfaz.
  *** se creo prototypo de la pagina y la necesidad del usuario ***
 
 * Se creo el diseño de la pagina principal, con dos opciones,(dos botones) la cual el cliente tendra que escoger cual necesita.
-* Si es cifrar la parjeta o decifrarla.
-* ya escogida la opcion,al precionar el boton  los direccionara a segunda pagina, la cual se vera un targeta y un canpo a llenar , donde el cliente pondra los dastos de la pagina 
+##  Aca el codigo html 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Cipher Card</title>
+
+</head>
+
+<body>
+    <script src="index.js" type="module"></script>
+
+    <h1>Comparte tu tarjeta Bancaria o credito de manera segura.</h1>
+
+    <section class="container">
+
+        <div class="cifrar">
+            <a href="cifrar.html" class="cifrar card">Cifrar AQUI</a>
+            <!--# sera el enlase del link y se agrego una clase para los botones-->
+            <a href="decifrar.html" class="decifrar card">Decifrar AQUI</a>
+            <!---->
+        </div>
+    </section>
+    <script src="" type="module"></script>
+</body>
+
+</html>
+
+
+![imagen del primera pagina](paginaInicial.png)
+
+* ya escogida la opcion,al precionar el boton los direccionara a segunda pagina,
+
+![imagen de segunda pagina](paginaSegundaria.png) 
+
+
+ la cual se vera una tarjeta y un campo a llenar, donde el cliente podra ingresar los datos .
+ segun lo deceado (cifrar o descifrar).
+
+ al hacer click intantania mente se veran datos del cliente segun el desplazamiento que quiera darle...
+ 
+
+ 
+

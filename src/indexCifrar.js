@@ -26,9 +26,7 @@ function inicio() {
     document.getElementById("cifrar").addEventListener("click", function() {
         let texto1 = document.getElementById("desplazamiento2").value; // mensaje que entra 
         let desplazamiento = document.getElementById("posicionCifrar").value;
-        document.getElementById("texto2").value = cifrar1(texto1, desplazamiento);
-
-        //mensaje que sale 
+        document.getElementById("texto2").value = cifrar1(texto1, desplazamiento); //mensaje que sale 
     }, true);
 
 }
